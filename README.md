@@ -6,14 +6,14 @@
 - Artificial Intelligence
 
 ## Screenshots
-
+- https://t.me/ryukimodsscreenshots/77
 
 ## Requirements
-- Android 8.1 (SDK 27) and up for app
+- Android 8.1 (SDK 27) and up for the app
 
 ## Download Link
-- App:
-- Tasker project xml that can be imported to your Tasker app:
+- App: https://www.opendesktop.org/p/2354245/
+- Tasker project xml that can be imported to your Tasker app: https://www.opendesktop.org/p/1538840/
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
