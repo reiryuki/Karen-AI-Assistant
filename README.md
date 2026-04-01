@@ -18,6 +18,58 @@
 - Text to speech
 - Agent (Promt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow deleting files nor folders.)
 
+## Changelog
+
+v1.0
+- Add some new features
+- Read and store data to storage
+- Karen_AI_Assistant folder
+- No longer using accessibility service
+- Fix bugs
+- Convert to apk
+
+v0.9
+- Add Model, API Key, & Language input dialog
+- Improvements & fix bugs
+
+v0.8
+- Add ability to upload any files
+- Add weather/air temp/wind real time data
+- Change promts to English but language can be changed in Karen Language task
+- Fix bugs and promt
+
+v0.7
+- Screenshot ability into toggle
+- Add front and rear camera ability
+Fix bugs and promt
+
+v0.6
+- Add screenshot ability
+- No longer require Tasker Gemini Plugin
+Fix bugs and promt
+
+v0.5
+- Fix bugs and promt
+- Remove Voice button in text query
+
+v0.4
+- Add ability to launch installed apps
+- Add text query activity, direct edit & copy text
+- Fix promt & bugs
+
+v0.3
+- Add some new options
+- Fix promt
+- Fix bugs
+
+v0.2
+- Add news real time data
+- Fix promt
+- Fix bugs
+
+v0.1
+- Initial release
+
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
 
