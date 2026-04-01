@@ -2,8 +2,21 @@
 
 ## Descriptions
 - An app powered by Tasker and an importable Tasker project xml
+
+## Features
 - Device Assistant
 - Artificial Intelligence
+- Voice match
+- Keyboard text 
+- Screen Info
+- Screenshot
+- Front & rear camera
+- Any files
+- Modify data
+- Launch apps & URL
+- Multi language
+- Text to speech
+- Agent (Promt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow deleting files nor folders.)
 
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
@@ -16,7 +29,7 @@
 - Tasker project xml: http://ddl.to/d/7bJVH
 
 ## Support & Bug Report
-- https://t.me/ryukinotes/54
+- Share logs in your storage Karen_AI_Assistant/logs/ folder to https://t.me/reiryuki
 - If you don't do above, issues will be closed immediately
 
 ## Credits and contributors
