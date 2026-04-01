@@ -13,7 +13,7 @@
 
 ## Download Link
 - App: http://ddl.to/d/7bJRR
-- Tasker project xml that can be imported to your Tasker app: https://www.opendesktop.org/p/1538840/
+- Tasker project xml: http://ddl.to/d/7bJVH
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
