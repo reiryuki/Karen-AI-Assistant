@@ -22,8 +22,7 @@
 
 v1.0
 - Add some new features
-- Read and store data to storage
-- Karen_AI_Assistant folder
+- Read and store data to storage Karen_AI_Assistant folder
 - No longer using accessibility service
 - Fix bugs
 - Convert to apk
