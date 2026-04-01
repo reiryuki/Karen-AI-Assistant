@@ -23,6 +23,7 @@
 
 ## Requirements
 - Android 8.1 (SDK 27) and up for the app
+- Tasker app for the project xml
 
 ## Download Link
 - App: http://ddl.to/d/7bJRR
