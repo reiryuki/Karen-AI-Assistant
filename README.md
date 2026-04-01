@@ -81,7 +81,7 @@ v0.1
 - Tasker project xml: http://ddl.to/d/7bJVH
 
 ## Support & Bug Report
-- Share logs in your storage Karen_AI_Assistant/logs/ folder to https://t.me/reiryuki
+- Share logs in your storage Karen_AI_Assistant/log/ folder to https://t.me/reiryuki
 - If you don't do above, issues will be closed immediately
 
 ## Credits and contributors
