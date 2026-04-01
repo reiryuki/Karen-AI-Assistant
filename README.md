@@ -12,7 +12,7 @@
 - Android 8.1 (SDK 27) and up for the app
 
 ## Download Link
-- App: http://ddl.to/d/7bJA6
+- App: http://ddl.to/d/7bJRR
 - Tasker project xml that can be imported to your Tasker app: https://www.opendesktop.org/p/1538840/
 
 ## Support & Bug Report
