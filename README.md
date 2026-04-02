@@ -20,6 +20,10 @@
 
 ## Changelog
 
+v1.1
+- Fix bugs and permissions
+- Always re-launch activity on result
+
 v1.0
 - Add some new features
 - Read and store data to storage Karen_AI_Assistant folder
@@ -66,9 +70,6 @@ v0.2
 - Fix promt
 - Fix bugs
 
-v0.1
-- Initial release
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
 
@@ -77,8 +78,8 @@ v0.1
 - Tasker app for the project xml
 
 ## Download Link
-- App: http://ddl.to/d/7bJRR
-- Tasker project xml: http://ddl.to/d/7bJVH
+- App: http://ddl.to/d/7bfPU
+- Tasker project xml: http://ddl.to/d/7bfPT
 
 ## Support & Bug Report
 - Share logs in your storage Karen_AI_Assistant/log/ folder to https://t.me/reiryuki
