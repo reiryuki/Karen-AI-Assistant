@@ -1,7 +1,7 @@
 # Karen AI Assistant
 
 ## Descriptions
-- An app powered by Tasker and an importable Tasker project xml
+An app powered by Tasker and an importable Tasker project xml
 
 ## Features
 - Device Assistant
