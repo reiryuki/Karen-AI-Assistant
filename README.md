@@ -20,7 +20,7 @@
 
 ## Changelog
 
-v1.1
+v1.1-R
 - Fix bugs and permissions
 - Always re-launch activity on result
 
@@ -78,8 +78,8 @@ v0.2
 - Tasker app for the project xml
 
 ## Download Link
-- App: http://ddl.to/d/7bfPU
-- Tasker project xml: http://ddl.to/d/7bfPT
+- App: http://ddl.to/d/7bfiV
+- Tasker project xml: http://ddl.to/d/7bfiU
 
 ## Support & Bug Report
 - Share logs in your storage Karen_AI_Assistant/log/ folder to https://t.me/reiryuki
