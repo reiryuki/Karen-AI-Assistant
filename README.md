@@ -24,7 +24,9 @@ An app powered by Tasker and an importable Tasker project xml
 v1.2 (Soon)
 - New better UI
 - Rename feature Agent to Java
-- Add "Data 2" for one more AI Agent and "Agents" to switch response between them
+- Add "Data 2" for one more AI Agent
+- Add "Agents" to switch response between them
+- Add "Continue" to generate with history without additional promt
 - Fix bugs
 
 v1.1-R
