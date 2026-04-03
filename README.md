@@ -17,7 +17,7 @@ An app powered by Tasker and an importable Tasker project xml
 - Multi language
 - Text to speech
 - Real time news & weather
-- Agent (Promt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow deleting files nor folders.)
+- Java (Promt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow deleting files nor folders.)
 
 ## Changelog
 
