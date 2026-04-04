@@ -25,7 +25,7 @@ v1.2 (Soon)
 - New better UI
 - Rename feature Agent to Java
 - Add "Data 2" for one more AI Agent
-- Add "Agent 1" / "Agent 2" to switch response between them
+- Add "Agent Auto" / "Agent 1" / "Agent 2" to switch response between them
 - Add "Continue" to generate with history without additional promt
 - Fix bugs
 
