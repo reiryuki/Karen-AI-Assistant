@@ -5,14 +5,14 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Features
 - Device Assistant
-- Artificial Intelligence
+- 2 AI Agents
 - Voice match
 - Keyboard text 
 - Screen Info
 - Screenshot
 - Front & rear camera
 - Any files
-- Modify data
+- Modify AI Agents data
 - Launch apps & URL
 - Multi language
 - Text to speech
