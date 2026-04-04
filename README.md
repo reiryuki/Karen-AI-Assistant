@@ -5,7 +5,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Features
 - Device Assistant
-- 2 AI Agents
+- 2 AI Agents (Soon)
 - Voice match
 - Keyboard text 
 - Screen Info
