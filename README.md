@@ -12,6 +12,7 @@ An app powered by Tasker and an importable Tasker project xml
 - Screenshot
 - Front & rear camera
 - Any files
+- Previous files (Soon)
 - Modify AI Agents data
 - Launch apps & URL
 - Multi language
@@ -28,6 +29,8 @@ v1.2 (Soon)
 - Add "Agent Auto" / "Agent 1" / "Agent 2" to switch response between them
 - Add "Continue" to generate with history without additional promt
 - Add "User Name" to change your name
+- Add "User Personality" to describe who you are
+- Add "Previous Files" to re-upload your previous files that you uploaded
 - Fix bugs
 
 v1.1-R
