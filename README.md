@@ -5,14 +5,15 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Features
 - Device Assistant
-- 2 AI Agents (Soon)
+- 2 AI Agents
 - Voice match
-- Keyboard text 
+- Keyboard text
+- Generate text with history without additional promt
 - Screen Info
 - Screenshot
 - Front & rear camera
 - Any files
-- Previous files (Soon)
+- Previous files
 - Modify AI Agents data
 - Launch apps & URL
 - Multi language
@@ -22,7 +23,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
-v1.2 (Soon)
+v1.2
 - New better UI
 - Rename feature Agent to Java
 - Add "Data 2" for one more AI Agent
@@ -86,8 +87,8 @@ v0.3
 - Tasker app for the project xml
 
 ## Download Link
-- App: http://ddl.to/d/7bfiV
-- Tasker project xml: http://ddl.to/d/7bfiU
+- App: http://ddl.to/d/7cS0T
+- Tasker project xml: http://ddl.to/d/7cS0R
 
 ## Support & Bug Report
 - Share logs in your storage Karen_AI_Assistant/log/ folder to https://t.me/reiryuki
