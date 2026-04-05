@@ -23,7 +23,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
-v1.3
+v1.3 (Soon)
 - System TTS does not read character name at the beginning of each paragraph
 
 v1.2
