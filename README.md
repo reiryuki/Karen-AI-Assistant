@@ -23,6 +23,9 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
+v1.3
+- System TTS does not read character name at the beginning of each paragraph
+
 v1.2
 - New better UI
 - Rename feature Agent to Java
@@ -73,11 +76,6 @@ v0.4
 - Add ability to launch installed apps
 - Add text query activity, direct edit & copy text
 - Fix promt & bugs
-
-v0.3
-- Add some new options
-- Fix promt
-- Fix bugs
 
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
