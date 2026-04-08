@@ -23,7 +23,7 @@ An app powered by Tasker and an importable Tasker project xml
 ## Changelog
 
 v1.4 (Soon)
-- Fix notification text limit
+- Fix bugs
 - Google Drive synchronization
 
 v1.3
