@@ -17,7 +17,7 @@ An app powered by Tasker and an importable Tasker project xml
 - Launch apps & URL
 - Multi language
 - Text to speech
-- Real time news & weather
+- Real time, date, news, & weather
 - Java (Promt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow deleting files nor folders.)
 
 ## Changelog
