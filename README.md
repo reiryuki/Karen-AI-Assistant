@@ -23,7 +23,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
-v1.3 (Soon)
+v1.3
 - New icon
 - Launch animation
 - UI improvements
@@ -90,11 +90,11 @@ v0.4
 - Tasker app for the project xml
 
 ## Download Link
-- App: http://ddl.to/d/7cS0T
-- Tasker project xml: http://ddl.to/d/7cS0R
+- App: http://ddl.to/d/7d3sJ
+- Tasker project xml: http://ddl.to/d/7d3sI
 
 ## Support & Bug Report
-- Share logs in your storage Karen_AI_Assistant/log/ folder to https://t.me/reiryuki
+- 
 - If you don't do above, issues will be closed immediately
 
 ## Credits and contributors
