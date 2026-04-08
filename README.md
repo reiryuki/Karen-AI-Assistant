@@ -26,6 +26,7 @@ An app powered by Tasker and an importable Tasker project xml
 v1.3 (Soon)
 - New icon
 - Launch animation
+- UI improvements
 - System TTS does not read character name at the beginning of each paragraph
 - Resizeable text
 - Fix bugs
