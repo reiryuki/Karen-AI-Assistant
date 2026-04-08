@@ -22,6 +22,10 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
+v1.4 (Soon)
+- Fix notification text limit
+- Google Drive synchronization
+
 v1.3
 - New icon
 - Launch animation
@@ -75,11 +79,6 @@ Fix bugs and promt
 v0.5
 - Fix bugs and promt
 - Remove Voice button in text query
-
-v0.4
-- Add ability to launch installed apps
-- Add text query activity, direct edit & copy text
-- Fix promt & bugs
 
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
