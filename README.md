@@ -84,6 +84,8 @@ v0.5
 - https://t.me/ryukimodsscreenshots/77
 
 ## Requirements
+- Create your own API key here first (it's free): https://aistudio.google.com/api-keys
+- https://play.google.com/store/apps/details?id=com.google.android.tts
 - Android 8.1 (SDK 27) and up for the app
 - Tasker app for the project xml
 
