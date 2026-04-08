@@ -6,9 +6,8 @@ An app powered by Tasker and an importable Tasker project xml
 ## Features
 - Device Assistant
 - 2 AI Agents
-- Voice match
-- Keyboard text
-- Generate text with history without additional promt
+- Voice & text promt
+- Continue (Generate text with history without additional promt.)
 - Screen Info
 - Screenshot
 - Front & rear camera
