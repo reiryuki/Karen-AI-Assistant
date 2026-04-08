@@ -74,7 +74,7 @@ v0.7
 v0.6
 - Add screenshot ability
 - No longer require Tasker Gemini Plugin
-Fix bugs and promt
+- Fix bugs and promt
 
 v0.5
 - Fix bugs and promt
