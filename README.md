@@ -89,8 +89,10 @@ v0.4
 - Android 8.1 (SDK 27) and up for the app
 - Tasker app for the project xml
 
-## Download Link
+## Download Link & Instructions
 - App: http://ddl.to/d/7d3sJ
+- If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
+- In Android 13 and above, enable notification permission manually to get features from notification.
 - Tasker project xml: http://ddl.to/d/7d3sI
 
 ## Support & Bug Report
