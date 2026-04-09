@@ -24,6 +24,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 v1.4 (Soon)
 - Fix bugs & UI improvements
+- Offline detection
 - Google Drive synchronization
 
 v1.3
