@@ -25,6 +25,7 @@ An app powered by Tasker and an importable Tasker project xml
 v1.5 (Soon)
 - Add notify quick access
 - Changeable notify text character limit
+- No longer read write API keys to internal storage
 - Fix bugs
 
 v1.4
