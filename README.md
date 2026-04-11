@@ -27,6 +27,7 @@ v1.4 (Soon)
 - Offline detection
 - Auto resolve model
 - Dark/light theme
+- Re-Speech toggle (long press on Stop Speech)
 
 v1.3
 - New icon
