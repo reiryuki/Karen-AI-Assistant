@@ -22,6 +22,10 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
+v1.5 (Soon)
+- Add notify quick access
+- Changeable notify text character limit
+
 v1.4
 - Fix bugs & UI improvements
 - Offline detection
@@ -78,10 +82,6 @@ v0.6
 - Add screenshot ability
 - No longer require Tasker Gemini Plugin
 - Fix bugs and promt
-
-v0.5
-- Fix bugs and promt
-- Remove Voice button in text query
 
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
