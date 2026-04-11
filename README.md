@@ -100,9 +100,6 @@ v0.6
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Tasker project xml: http://ddl.to/d/7dvRj
 
-## Known Issue
-- Status bar not visible
-
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
 - If you don't do above, issues will be closed immediately
