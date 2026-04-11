@@ -22,7 +22,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
-v1.4 (Soon)
+v1.4
 - Fix bugs & UI improvements
 - Offline detection
 - Auto resolve model
@@ -93,10 +93,10 @@ v0.5
 - Tasker app for the project xml
 
 ## Download Links & Instructions
-- App: http://ddl.to/d/7d3sJ
+- App: http://ddl.to/d/7dvRk
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
-- Tasker project xml: http://ddl.to/d/7d3sI
+- Tasker project xml: http://ddl.to/d/7dvRj
 
 ## Known Issue
 - Status bar not visible
