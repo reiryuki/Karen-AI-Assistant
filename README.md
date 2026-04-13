@@ -22,7 +22,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
-v1.7
+v1.7 (Soon)
 - Fix text size fit mode
 - Improvement
 
