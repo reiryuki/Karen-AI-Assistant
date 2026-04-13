@@ -22,7 +22,7 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
-v1.6 (Soon)
+v1.6
 - Fix bugs and improvements
 
 v1.5
@@ -93,10 +93,10 @@ v0.7
 - Tasker app for the project xml
 
 ## Download Links & Instructions
-- App: http://ddl.to/d/7e99b
+- App: http://ddl.to/d/7eN3P
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
-- Tasker project xml: http://ddl.to/d/7e99a
+- Tasker project xml: http://ddl.to/d/7eN3O
 
 ## Known Issue
 - You need to re-set default assistant app (if you are using it) in every device boot.
