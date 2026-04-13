@@ -22,6 +22,9 @@ An app powered by Tasker and an importable Tasker project xml
 
 ## Changelog
 
+v1.6 (Soon)
+- Fix bugs and improvements
+
 v1.5
 - Add notify quick access
 - Changeable notify text character limit
@@ -78,11 +81,6 @@ v0.8
 v0.7
 - Screenshot ability into toggle
 - Add front and rear camera ability
-- Fix bugs and promt
-
-v0.6
-- Add screenshot ability
-- No longer require Tasker Gemini Plugin
 - Fix bugs and promt
 
 ## Screenshots
