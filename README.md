@@ -1,7 +1,7 @@
 # Karen AI Assistant
 
 ## Descriptions
-An app powered by Tasker and an importable Tasker project xml
+An app powered by Tasker
 
 ## Features
 - Device Assistant
@@ -90,13 +90,11 @@ v0.8
 - Create your own API key here first (it's free): https://aistudio.google.com/api-keys
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 - Android 8.1 (SDK 27) and up for the app
-- Tasker app for the project xml
 
 ## Download Links & Instructions
-- App: http://ddl.to/d/7eN3P
+- http://ddl.to/d/7eN3P
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
-- Tasker project xml: http://ddl.to/d/7eN3O
 
 ## Known Issue
 - You need to re-set default assistant app (if you are using it) in every device boot.
