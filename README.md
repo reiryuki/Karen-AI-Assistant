@@ -22,7 +22,7 @@ An app powered by Tasker
 
 ## Changelog
 
-v1.7 (Soon)
+v1.7
 - Fix text size fit mode
 - Fix crash
 - Improvement
@@ -92,7 +92,7 @@ v0.8
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- http://ddl.to/d/7eN3P
+- http://ddl.to/d/7eZTz
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
