@@ -87,11 +87,11 @@ v0.8
 - https://t.me/ryukimodsscreenshots/77
 
 ## Requirements
+- Android 8.1 (SDK 27) and up
 - Create your own API key here first (it's free): https://aistudio.google.com/api-keys
 - https://play.google.com/store/apps/details?id=com.google.android.tts
-- Android 8.1 (SDK 27) and up for the app
 
-## Download Links & Instructions
+## Download Link & Instructions
 - http://ddl.to/d/7eN3P
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
