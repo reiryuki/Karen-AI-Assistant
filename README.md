@@ -18,14 +18,14 @@ An app powered by Tasker
 - Multi language
 - Text to speech
 - Real time, date, news, & weather
-- Run shell (Soon) (It does not allow root and cannot write outside of Karen_AI_Asistant/workspace/ folder)
-- Java (prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow deleting files nor folders.)
+- Run shell (Soon) (Does not allow root and cannot write outside of Karen_AI_Assistant/workspace/ folder)
+- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow write outside of Karen_AI_Assistant/workspace/ folder.)
 
 ## Changelog
 
 v1.8 (Soon)
 - Greetings at device boot
-- Run shell ability (It does not allow root and cannot write outside of Karen_AI_Asistant/workspace/ folder)
+- Run shell ability (It does not allow root and cannot write outside of Karen_AI_Assistant/workspace/ folder)
 
 v1.7
 - Fix text size fit mode
