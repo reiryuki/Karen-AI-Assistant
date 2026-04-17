@@ -7,7 +7,7 @@ An app powered by Tasker
 - Device Assistant
 - 2 AI Agents
 - Voice & text prompt
-- Continue (Generate text with history without additional prompt)
+- Continue with or without you (Generate text with history without additional prompt)
 - Screen Info
 - Screenshot
 - Front & rear camera
@@ -18,14 +18,15 @@ An app powered by Tasker
 - Multi language
 - Text to speech
 - Real time, date, news, & weather
-- Run shell (Soon) (Does not allow root and cannot write outside of Karen_AI_Assistant/workspace/ folder)
-- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Does not allow write outside of Karen_AI_Assistant/workspace/ folder.)
+- Run shell (Soon) (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
+- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
 
 ## Changelog
 
 v1.8 (Soon)
+- Continue with or without you
 - Greetings at device boot
-- Run shell ability (It does not allow root and cannot write outside of Karen_AI_Assistant/workspace/ folder)
+- Run shell ability (It does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
 
 v1.7
 - Fix text size fit mode
@@ -96,7 +97,9 @@ v0.9
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issue
-- You need to re-set default assistant app (if you are using it) in every device boot.
+- You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS via root to fix that:
+
+`su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaissistant`
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
