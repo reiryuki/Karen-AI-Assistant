@@ -23,6 +23,10 @@ An app powered by Tasker
 
 ## Changelog
 
+v1.9
+- Fix default data
+- Fix weather
+
 v1.8
 - Continue with or without you
 - Greetings at device boot
@@ -79,10 +83,6 @@ v1.0
 - Fix bugs
 - Convert to apk
 
-v0.9
-- Add Model, API Key, & Language input dialog
-- Improvements & fix bugs
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
 
@@ -92,7 +92,7 @@ v0.9
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- http://ddl.to/d/7fECj
+- https://devuploads.com/z9wtrn95cyut
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
