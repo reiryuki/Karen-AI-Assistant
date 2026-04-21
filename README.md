@@ -23,6 +23,15 @@ An app powered by Tasker
 
 ## Changelog
 
+v2.0
+- Supports xlsx file, zip, and any other else compressed files
+- Independent Run Shell toggle
+- No dialog confirmation on Java task
+- Does not greet at boot
+- Notification only on response
+- Improvements
+- Fix bugs
+
 v1.9
 - Fix default data
 - Fix weather
@@ -76,13 +85,6 @@ v1.1-R
 - Fix bugs and permissions
 - Always re-launch activity on result
 
-v1.0
-- Add some new features
-- Read and store data to storage Karen_AI_Assistant folder
-- No longer using accessibility service
-- Fix bugs
-- Convert to apk
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
 
@@ -92,7 +94,7 @@ v1.0
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/z9wtrn95cyut
+- https://devuploads.com/x84dagec1cfv
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
