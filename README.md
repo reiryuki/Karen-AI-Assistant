@@ -20,6 +20,7 @@ An app powered by Tasker
 - Real time, date, news, & weather
 - Run shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
 - Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
+- Java uses an additional input prompt of about 50 KiB, so it might use up your quota faster.
 
 ## Changelog
 
