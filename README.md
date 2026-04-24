@@ -17,12 +17,19 @@ An app powered by Tasker
 - Launch apps & URL
 - Multi language
 - Text to speech
-- Real time, date, news, & weather
+- Real time, date, zone, weather, search, & news
 - Run shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
 - Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
 - Java uses an additional input prompt of about 50 KiB, so it might use up your quota faster.
 
 ## Changelog
+
+v2.1
+- Add real time live Search
+- Add Copy Text at notification feature
+- Removes all error info before generates
+- Removes /sdcard/Karen_AI_Assistant/.extract/\* before extracting new files
+- Fix bugs and improvements
 
 v2.0
 - Supports xlsx file, zip, and any other else compressed files
@@ -82,12 +89,8 @@ v1.2
 - Add "Previous Files" to re-upload your files that you uploaded previously
 - Fix bugs
 
-v1.1-R
-- Fix bugs and permissions
-- Always re-launch activity on result
-
 ## Screenshots
-- https://t.me/ryukimodsscreenshots/77
+https://t.me/ryukimodsscreenshots/77
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
@@ -95,14 +98,18 @@ v1.1-R
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/x84dagec1cfv
+- https://devuploads.com/9xtq7m0hsyvy
 - If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issue
-- You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS via root to fix that:
+You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS via root to fix that:
 
 `su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaissistant`
+
+Or via adb shell:
+
+`adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaissistant`
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
@@ -113,6 +120,6 @@ v1.1-R
 - You can contribute ideas about this app/project here: https://t.me/androidappsportdevelopment
 
 ## Sponsors
-- https://t.me/ryukinotes/25
+https://t.me/ryukinotes/25
 
 
