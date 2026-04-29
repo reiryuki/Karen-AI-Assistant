@@ -27,6 +27,7 @@
 These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
 - Auto screenshot without activating the accessibility service
 - Screen Info without setting this app as default assistant app
+
 You can grant WRITE_SECURE_SETTINGS permission via root in Termux/Terminal:
 
 `su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
