@@ -1,28 +1,53 @@
 # Karen AI Assistant
 
 ## Descriptions
-An app powered by Tasker
+- An app powered by Tasker
+- Karen AI Assistant is an Android AI Assistant that can chat, search live information, help operate your device, and automate tasks.
 
 ## Features
-- Device Assistant
+- Default Assistant
 - 2 AI Agents
 - Voice & text prompt
 - Continue with or without you (Generate text with history without additional prompt)
-- Screen Info
-- Screenshot
+- Screen Info (Requires this app to be set as default assistant app)
+- Latest screenshot
 - Front & rear camera
 - Any files
-- Previous files
+- Previous files (Re-use previously uploaded files)
 - Modify AI Agents data
-- Launch apps & URL
-- Multi language
-- Text to speech
-- Real time, date, zone, weather, search, & news
+- Launch any apps
+- Multi languages
+- Google Speech and ElevenLabs Speech
+- Real time, date, time zone, weather, live search, & news
+- Deep Search (Reads the entire articles from the top 3 links of live search, adding up to 300 KiB of input, so it might use up your quota faster.)
 - Run shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
-- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
-- Java uses an additional input prompt of about 50 KiB, so it might use up your quota faster.
+- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder. Uses additional input prompt of about 50 KiB, so it might use up your quota faster.)
+
+## Advanced Features
+These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
+- Auto screenshot without activating the accessibility service
+- Screen Info without setting this app as default assistant app
+You can grant WRITE_SECURE_SETTINGS permission via root in Termux/Terminal:
+
+`su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
+
+Or via adb shell:
+
+`adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.2
+- Fix bugs and improvements
+- Resume process if connection is available
+- Add new model gemini-robotics-er-1.6-preview
+- Google Speech unlimited length
+- Add Deep Search feature
+- Remove URL feature
+- Add Advanced Features
+- Change default agents data
+- Remove Greet
+- No longer log KarenWeather.txt & KarenScreenInfo.txt but KarenPrompt.txt instead
 
 v2.1
 - Add real time live Search
@@ -78,17 +103,6 @@ v1.3
 - Resizeable text
 - Fix bugs
 
-v1.2
-- New better UI
-- Rename feature Agent to Java
-- Add "Data 2" for one more AI Agent
-- Add "Agent Auto", "Agent 1", "Agent 2", & "Agent Random" to control response between them
-- Add "Continue" to generate with history without additional prompt
-- Add "User Name" to change your name
-- Add "User Personality" to describe who you are
-- Add "Previous Files" to re-upload your files that you uploaded previously
-- Fix bugs
-
 ## Screenshots
 https://t.me/ryukimodsscreenshots/77
 
@@ -98,18 +112,11 @@ https://t.me/ryukimodsscreenshots/77
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/9xtq7m0hsyvy
-- If you installed app v1.2 or below, then uninstall it first before installing app v1.3 or above.
+- https://devuploads.com/xphbv7up2vxz
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issue
-You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS via root to fix that:
-
-`su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaissistant`
-
-Or via adb shell:
-
-`adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaissistant`
+You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
