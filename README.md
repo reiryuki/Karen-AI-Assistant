@@ -19,9 +19,10 @@
 - Multi languages
 - Google Speech and ElevenLabs Speech
 - Real time, date, time zone, weather, live search, & news
-- Deep Search (Reads the entire articles from the top 3 links of live search, adding up to 300 KiB of input, so it might use up your quota faster.)
+- Web Search
+- Web Deep Search (Reads the entire articles from the top 3 links of live search, adding up to 300 KiB of input, so it might use up your quota faster.)
 - Run shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
-- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder. Uses additional input prompt of about 50 KiB, so it might use up your quota faster.)
+- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
 
 ## Advanced Features
 These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
@@ -37,6 +38,14 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.3
+- API keys encoding format in the internal data for security
+- Fix Web Search bugs
+- Web Search OFF/ON/Deep button
+- Add Stop Process button (You can long press to force stop Google Speech manually)
+- Limit news length to 25000 characters
+- Improve default agents data
 
 v2.2
 - Fix bugs and improvements
@@ -96,14 +105,6 @@ v1.4
 - Dark/light theme
 - Re-Speech toggle (long press on Stop Speech)
 
-v1.3
-- New icon
-- Launch animation
-- UI improvements
-- System TTS does not read character name at the beginning of each paragraph
-- Resizeable text
-- Fix bugs
-
 ## Screenshots
 https://t.me/ryukimodsscreenshots/77
 
@@ -113,11 +114,12 @@ https://t.me/ryukimodsscreenshots/77
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/xphbv7up2vxz
+- https://devuploads.com/18e36tzv3bpj
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
-## Known Issue
-You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
+## Known Issues
+- You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
+- Sometimes Google Speech is not stopping even you have clicked Stop Speech button. To fix that, you can long press Stop Process button to force stop Google Speech manually.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
