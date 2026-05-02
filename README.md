@@ -7,19 +7,19 @@
 ## Features
 - Default Assistant
 - 2 AI Agents
-- Voice & text prompt
-- Continue with or without you (Generate text with history without additional prompt)
+- Voice & Text Prompt
+- Continue with or without You (Generate text with history without additional prompt)
 - Screen Info (Requires this app to be set as default assistant app)
-- Latest screenshot
-- Front & rear camera
-- Any files
-- Previous files (Re-use previously uploaded files)
+- Latest Screenshot
+- Front & Rear camera
+- Any Files
+- Previous Files (Re-use previously uploaded files)
 - Modify AI Agents data
-- Launch any apps
+- Launch any Apps
 - Multi languages
 - Google Speech and ElevenLabs Speech
-- Real time, date, time zone, weather, live search, & news
-- Web Search
+- Real time, date, time zone, and weather.
+- Web Search & News
 - Web Deep Search (Reads the entire articles from the top 3 links of live search, adding up to 300 KiB of input, so it might use up your quota faster.)
 - Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
 - Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
