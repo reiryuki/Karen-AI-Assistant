@@ -21,8 +21,10 @@
 - Real time, date, time zone, weather, live search, & news
 - Web Search
 - Web Deep Search (Reads the entire articles from the top 3 links of live search, adding up to 300 KiB of input, so it might use up your quota faster.)
-- Run shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
-- Java (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
+- Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
+- Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
+- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
+- Read My Text (Just paste your copied text and it will be read directly with Speech)
 
 ## Advanced Features
 These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
@@ -38,6 +40,14 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.4
+- Add Create Image feature
+- Add Read My Text feature
+- Backup deleted chats to /sdcard/Karen_AI_Assistant/Backups
+- Update Java Code feature rules
+- Remove unavailable model gemini-robotics-er-1.5-preview
+- Fix bugs and improvements
 
 v2.3
 - API keys encoding format in the internal data for security
@@ -98,15 +108,9 @@ v1.5
 - No longer read write API keys to internal storage
 - Fix bugs
 
-v1.4
-- Fix bugs & UI improvements
-- Offline detection
-- Auto resolve model
-- Dark/light theme
-- Re-Speech toggle (long press on Stop Speech)
-
 ## Screenshots
-https://t.me/ryukimodsscreenshots/77
+- https://t.me/ryukimodsscreenshots/77
+- https://t.me/ryukimodsscreenshots/116
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
@@ -114,7 +118,7 @@ https://t.me/ryukimodsscreenshots/77
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/18e36tzv3bpj
+- https://devuploads.com/hz3lysyxc5dq
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
