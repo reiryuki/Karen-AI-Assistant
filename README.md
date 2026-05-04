@@ -41,6 +41,11 @@ Or via adb shell:
 
 ## Changelog
 
+v2.5
+- Tells AI the current battery level
+- Fix bugs and improvements
+- Change default agents data
+
 v2.4
 - Add Create Image feature
 - Add Read My Text feature
@@ -102,12 +107,6 @@ v1.7
 v1.6
 - Fix bugs and improvements
 
-v1.5
-- Add notify quick access
-- Changeable notify text character limit
-- No longer read write API keys to internal storage
-- Fix bugs
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
 - https://t.me/ryukimodsscreenshots/116
@@ -118,7 +117,7 @@ v1.5
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/hz3lysyxc5dq
+- https://devuploads.com/suefxwqwfitc
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
