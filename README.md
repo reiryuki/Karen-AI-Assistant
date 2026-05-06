@@ -14,8 +14,13 @@
 - Front & Rear camera
 - Any Files
 - Previous Files (Re-use previously uploaded files)
+- Apps
+  - Launch any apps (offline if app name (ignore case) or package name match)
+  - Show all installed apps with "list" (ignore case)
+  - Launch YouTube Music with song keywords. Example: "youtube music i see stars running with scissors"
+  - Launch a package name with a specific class name separated with slash "/". Example: com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity
+  - Launch an app with the specific link data separated with a comma ",". Example: tradingview,https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO&utm_source=androidapp&utm_medium=share
 - Modify AI Agents data
-- Launch any Apps
 - Multi languages
 - Google Speech and ElevenLabs Speech
 - Real time, date, time zone, and weather.
@@ -40,6 +45,15 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.6
+- Add some new features in Apps feature
+- Add skip screenshot dialog option
+- Retry max 3 times and fix errors automatically in Java Code feature
+- Change default agents data
+- Add options info in Text Prompt dialog
+- Fix upload files
+- Fix other bugs and improvements
 
 v2.5
 - Tells AI the current battery level
@@ -104,9 +118,6 @@ v1.7
 - Fix crash
 - Improvement
 
-v1.6
-- Fix bugs and improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
 - https://t.me/ryukimodsscreenshots/116
@@ -117,7 +128,7 @@ v1.6
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/suefxwqwfitc
+- https://devuploads.com/87vafzp8300h
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
