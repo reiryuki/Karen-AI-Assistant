@@ -2,7 +2,7 @@
 
 ## Descriptions
 - An app powered by Tasker
-- Karen AI Assistant is an Android AI Assistant that can chat, search live information, help operate your device, and automate tasks.
+- Karen AI Assistant is a powerful Android AI Assistant which not only can chat but web search live information, automate tasks, productivity, and intelligent device interaction.
 
 ## Features
 - Default Assistant
@@ -13,22 +13,22 @@
 - Latest Screenshot
 - Front & Rear camera
 - Any Files
-- Previous Files (Re-use previously uploaded files)
 - Apps
   - Launch any apps (offline if app name (ignore case) or package name match)
   - Show all installed apps with "list" (ignore case)
-  - Launch YouTube Music with song keywords. Example: "youtube music i see stars running with scissors"
+  - Launch YouTube Music with song keywords (ignore case). Example: "youtube music i see stars running with scissors"
   - Launch a package name with a specific class name separated with slash "/". Example: com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity
-  - Launch an app with the specific link data separated with a comma ",". Example: tradingview,https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO&utm_source=androidapp&utm_medium=share
+  - Launch an app with the specific URL data separated with a comma ",". Example: tradingview,https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO&utm_source=androidapp&utm_medium=share
 - Modify AI Agents data
 - Multi languages
 - Google Speech and ElevenLabs Speech
 - Real time, date, time zone, and weather.
-- Web Search & News
-- Web Deep Search (Reads the entire articles from the top 3 links of live search, adding up to 300 KiB of input, so it might use up your quota faster.)
+- Reads a URL content
+- Web Search
+- News
 - Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
-- Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
-- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ folder.)
+- Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
+- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
 
 ## Advanced Features
@@ -45,6 +45,15 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.7
+- Add a new model gemini-3.1-flash-lite
+- Reads the content of a URL
+- Adding Files in multi paths
+- Allow Java Code to access Pictures/Karen AI Art/ directory
+- Add options info in Voice Prompt dialog
+- Log Offline Mode in KarenPrompt.txt if no require generate
+- Fix dang bugs 😣
 
 v2.6
 - Add some new features in Apps feature
@@ -111,16 +120,10 @@ v1.9
 v1.8
 - Continue with or without you
 - Greetings at device boot
-- Run shell ability (It does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ folder)
-
-v1.7
-- Fix text size fit mode
-- Fix crash
-- Improvement
+- Run shell ability (It does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/77
-- https://t.me/ryukimodsscreenshots/116
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
@@ -128,12 +131,12 @@ v1.7
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/87vafzp8300h
+- https://devuploads.com/73pksqrc78p7
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
-- Sometimes Google Speech is not stopping even you have clicked Stop Speech button. To fix that, you can long press Stop Process button to force stop Google Speech manually.
+- Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press Stop Process button to force stop Google Speech manually.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
