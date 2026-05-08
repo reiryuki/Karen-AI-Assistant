@@ -24,7 +24,7 @@
 - Google Speech and ElevenLabs Speech
 - Real time, date, time zone, and weather.
 - Reads a URL content
-- Web Search
+- Web Search (Please note that 'prompt' and 'dummy' in ignore case will not trigger the web search to avoid unexpected response. You can use something like p_r_o_m_p_t or d_u_m_m_y instead.)
 - News
 - Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
 - Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
