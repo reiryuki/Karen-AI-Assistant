@@ -2,7 +2,7 @@
 
 ## Descriptions
 - An app powered by Tasker
-- Karen AI Assistant is a powerful Android AI Assistant which not only can chat but web search live information, automate tasks, productivity, and intelligent device interaction.
+- Karen AI Assistant is a powerful Android AI Assistant which not only chats but also web search live information, automate tasks, productivity, and intelligent device interaction.
 
 ## Features
 - Default Assistant
@@ -19,13 +19,14 @@
   - Launch YouTube Music with song keywords (ignore case). Example: "youtube music i see stars running with scissors"
   - Launch a package name with a specific class name separated with slash "/". Example: com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity
   - Launch an app with the specific URL data separated with a comma ",". Example: tradingview,https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO&utm_source=androidapp&utm_medium=share
+- Search Song Lyrics/Chords in currently played music
+- Reads a URL content
+- Web Search
+- Real time News
 - Modify AI Agents data
 - Multi languages
 - Google Speech and ElevenLabs Speech
-- Real time, date, time zone, and weather.
-- Reads a URL content
-- Web Search (Please note that 'prompt' and 'dummy' in ignore case will not trigger the web search to avoid unexpected response. You can use something like p_r_o_m_p_t or d_u_m_m_y instead.)
-- News
+- Real time, date, time zone, and weather
 - Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
 - Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
@@ -45,6 +46,14 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.8
+- Encryption decryption API keys for security (you need to re-set your API keys)
+- Add Search Song Lyrics/Chords feature
+- Fix *prompt* and *dummy* word issue
+- Separation of Settings UI
+- Move Stop Process long press action to Stop Speech
+- Fix bugs and improvements
 
 v2.7
 - Add a new model gemini-3.1-flash-lite
@@ -78,7 +87,7 @@ v2.4
 - Fix bugs and improvements
 
 v2.3
-- API keys encoding format in the internal data for security
+- API keys encoding format in the internal data
 - Fix Web Search bugs
 - Web Search OFF/ON/Deep button
 - Add Stop Process button (You can long press to force stop Google Speech manually)
@@ -117,13 +126,8 @@ v1.9
 - Fix default data
 - Fix weather
 
-v1.8
-- Continue with or without you
-- Greetings at device boot
-- Run shell ability (It does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
-
 ## Screenshots
-- https://t.me/ryukimodsscreenshots/77
+- https://t.me/ryukimodsscreenshots/117
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
@@ -131,12 +135,12 @@ v1.8
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/73pksqrc78p7
+- https://devuploads.com/lukqrlcsg2wt
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
-- Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press Stop Process button to force stop Google Speech manually.
+- Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press the Stop Speech to force stop Google Speech manually.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
