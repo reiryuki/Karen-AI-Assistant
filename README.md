@@ -22,13 +22,12 @@
 - Search Song Lyrics/Chords in currently played music
 - Reads a URL content
 - Web Search
-- Real time News
+- Weather
 - Modify AI Agents data
 - Multi languages
 - Google Speech and ElevenLabs Speech
-- Real time, date, time zone, and weather
 - Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
-- Run Shell (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
+- Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
 
@@ -46,6 +45,19 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v2.9
+- Change string alias of ElevenLabs Speech API Key (please re-set your API key if you're using it)
+- Fix Run Shell
+- Retry Run Shell and fixing errors max 3 times automatically
+- Rename Run Shell to Workspace
+- Remove Google News and fully using DuckDuckGo Search instead
+- Reads another URL content if it's empty/error
+- Does not show files list in Text Prompt
+- Fix Files set after Create Image
+- Forgot to tidy up landscape mode
+- Forgot to set default model to the new gemini-3.1-flash-lite if it's not set
+- Improvements
 
 v2.8
 - Encryption decryption API keys for security (you need to re-set your API keys)
@@ -122,10 +134,6 @@ v2.0
 - Improvements
 - Fix bugs
 
-v1.9
-- Fix default data
-- Fix weather
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -135,7 +143,7 @@ v1.9
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/lukqrlcsg2wt
+- https://devuploads.com/y54cst3sruca
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
