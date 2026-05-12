@@ -46,6 +46,11 @@ Or via adb shell:
 
 ## Changelog
 
+v3.0
+- Fix blocking while reading a URL content
+- Latest informations detection
+- Improvements
+
 v2.9
 - Change string alias of ElevenLabs Speech API Key (please re-set your API key if you're using it)
 - Fix Run Shell
@@ -125,15 +130,6 @@ v2.1
 - Removes /sdcard/Karen_AI_Assistant/.extract/\* before extracting new files
 - Fix bugs and improvements
 
-v2.0
-- Supports xlsx file, zip, and any other else compressed files
-- Independent Run Shell toggle
-- No dialog confirmation on Java task
-- Does not greet at boot
-- Notification only on response
-- Improvements
-- Fix bugs
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -143,7 +139,7 @@ v2.0
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/y54cst3sruca
+- https://devuploads.com/olpoap2hkalo
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
