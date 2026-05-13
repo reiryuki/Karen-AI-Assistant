@@ -26,7 +26,8 @@
 - Modify AI Agents data
 - Multi languages
 - Google Speech and ElevenLabs Speech
-- Create Image (Tips for adding any text to the image, then edit the image using Java Code feature instead)
+- Create Image
+- Add Text to Image
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
@@ -45,6 +46,10 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v3.1
+- Add a new feature "Add Text to Image"
+- Fix bugs
 
 v3.0
 - Fix blocking while reading a URL content
@@ -123,13 +128,6 @@ v2.2
 - Remove Greet
 - No longer log KarenWeather.txt & KarenScreenInfo.txt but KarenPrompt.txt instead
 
-v2.1
-- Add real time live Search
-- Add Copy Text at notification feature
-- Removes all error info before generates
-- Removes /sdcard/Karen_AI_Assistant/.extract/\* before extracting new files
-- Fix bugs and improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -139,7 +137,7 @@ v2.1
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/olpoap2hkalo
+- https://devuploads.com/bw4fre7vp7ai
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
