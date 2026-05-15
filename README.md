@@ -47,6 +47,11 @@ Or via adb shell:
 
 ## Changelog
 
+v3.2
+- Fix Create Image crash in Android 16
+- Add Text to Image enhancements
+- Improvements
+
 v3.1
 - Add a new feature "Add Text to Image"
 - Fix bugs
@@ -116,18 +121,6 @@ v2.3
 - Limit news length to 25000 characters
 - Improve default agents data
 
-v2.2
-- Fix bugs and improvements
-- Resume process if connection is available
-- Add new model gemini-robotics-er-1.6-preview
-- Google Speech unlimited length
-- Add Deep Search feature
-- Remove URL feature
-- Add Advanced Features
-- Change default agents data
-- Remove Greet
-- No longer log KarenWeather.txt & KarenScreenInfo.txt but KarenPrompt.txt instead
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -137,7 +130,7 @@ v2.2
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/bw4fre7vp7ai
+- https://devuploads.com/1xb1akbt046l
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
