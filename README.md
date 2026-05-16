@@ -47,6 +47,11 @@ Or via adb shell:
 
 ## Changelog
 
+v3.3
+- Can create image without toggling to Create Image feature
+- Fix read a URL content bugs
+- Limit 1000000 characters length for read URL content to prevent failure
+
 v3.2
 - Fix Create Image crash in Android 16
 - Add Text to Image enhancements
@@ -113,14 +118,6 @@ v2.4
 - Remove unavailable model gemini-robotics-er-1.5-preview
 - Fix bugs and improvements
 
-v2.3
-- API keys encoding format in the internal data
-- Fix Web Search bugs
-- Web Search OFF/ON/Deep button
-- Add Stop Process button (You can long press to force stop Google Speech manually)
-- Limit news length to 25000 characters
-- Improve default agents data
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -130,7 +127,7 @@ v2.3
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/1xb1akbt046l
+- https://devuploads.com/extm0xeylsm7
 - In Android 13 and above, enable notification permission manually to get features from notification.
 
 ## Known Issues
