@@ -22,6 +22,7 @@
 - Search Song Lyrics/Chords in currently played music
 - Reads a URL content
 - Web Search
+- Add/update/delete calendar events
 - Weather
 - Modify AI Agents data
 - Multi languages
@@ -47,8 +48,17 @@ Or via adb shell:
 
 ## Changelog
 
+v3.4
+- Add an ability to add/update/delete calendar events
+- Add Calendar Name setting
+- Fix Create Image errors
+- Fix Web Search keywords
+- Prevent upload files failure
+- Fix other bugs & improvements
+
 v3.3
 - Can create image without toggling to Create Image feature
+- Long press Keep Speech to go to system speech settings
 - Fix read a URL content bugs
 - Limit 1000000 characters length for read URL content to prevent failure
 
@@ -110,14 +120,6 @@ v2.5
 - Fix bugs and improvements
 - Change default agents data
 
-v2.4
-- Add Create Image feature
-- Add Read My Text feature
-- Backup deleted chats to /sdcard/Karen_AI_Assistant/Backups
-- Update Java Code feature rules
-- Remove unavailable model gemini-robotics-er-1.5-preview
-- Fix bugs and improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -127,8 +129,15 @@ v2.4
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/extm0xeylsm7
+- https://devuploads.com/6l09wl48aihn
 - In Android 13 and above, enable notification permission manually to get features from notification.
+- Long press functions:
+  - Files > add/remove files
+  - Add Text to Image > add image
+  - Keep Speech > system speech settings
+  - Search Song > Lyrics/Chords
+  - Continue > with You/without You
+  - Stop Speech > manual force stop Google Speech
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
