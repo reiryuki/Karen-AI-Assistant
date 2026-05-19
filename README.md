@@ -1,7 +1,7 @@
 # Karen AI Assistant
 
 ## Descriptions
-- An app powered by Tasker
+- An app powered by Tasker and Google Gemini AI
 - Karen AI Assistant is a powerful Android AI Assistant which not only chats but also web search live information, automate tasks, productivity, and intelligent device interaction.
 
 ## Features
@@ -47,6 +47,14 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v3.5
+- Fix wrong hours format in Calendar Event Start Time & Calendar Event End Time
+- Summarize old chat
+- Limit 900000 characters length for files and URL content to prevent failure
+- Does not trigger Web Search if Screen Info is ON
+- Unknown errors handling
+- Improvements
 
 v3.4
 - Add an ability to add/update/delete calendar events
@@ -115,11 +123,6 @@ v2.6
 - Fix upload files
 - Fix other bugs and improvements
 
-v2.5
-- Tells AI the current battery level
-- Fix bugs and improvements
-- Change default agents data
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -129,7 +132,7 @@ v2.5
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/6l09wl48aihn
+- https://devuploads.com/yljy43lpu459
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
