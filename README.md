@@ -7,7 +7,7 @@
 ## Features
 - Default Assistant
 - 2 AI Agents
-- Voice & Text Prompt
+- Voice & Text Chat
 - Continue with or without You (Generate text with history without additional prompt)
 - Screen Info (Requires this app to be set as default assistant app)
 - Latest Screenshot
@@ -24,11 +24,12 @@
 - Web Search
 - Add/update/delete calendar events
 - Weather
+- Create Image (Can create image without toggling to Create Image feature)
+- Add Text to Image
 - Modify AI Agents data
+- User Personalization
 - Multi languages
 - Google Speech and ElevenLabs Speech
-- Create Image
-- Add Text to Image
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
@@ -48,9 +49,18 @@ Or via adb shell:
 
 ## Changelog
 
+v3.6
+- Fix colour format while adding a calendar event
+- Add calendar event does not return ID to prevent confusion
+- Tells calendar info if needed only for efficiency
+- Summarize old chat 20000 chars length
+- Fix bugs in Apps feature and backup feature
+- Fix typo
+- Change default Agents Data
+
 v3.5
 - Fix wrong hours format in Calendar Event Start Time & Calendar Event End Time
-- Summarize old chat
+- Summarize old chat 10000 chars length
 - Limit 900000 characters length for files and URL content to prevent failure
 - Does not trigger Web Search if Screen Info is ON
 - Unknown errors handling
@@ -114,15 +124,6 @@ v2.7
 - Log Offline Mode in KarenPrompt.txt if no require generate
 - Fix dang bugs 😣
 
-v2.6
-- Add some new features in Apps feature
-- Add skip screenshot dialog option
-- Retry max 3 times and fix errors automatically in Java Code feature
-- Change default agents data
-- Add options info in Text Prompt dialog
-- Fix upload files
-- Fix other bugs and improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -132,7 +133,7 @@ v2.6
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/yljy43lpu459
+- https://devuploads.com/ej92b3zg8r2i
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
