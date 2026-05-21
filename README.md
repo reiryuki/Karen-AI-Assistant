@@ -49,6 +49,15 @@ Or via adb shell:
 
 ## Changelog
 
+v3.7
+- Add gemini-3.5-flash
+- Only trigger Web Search if toggler is Nothing
+- Merge some detections into one JSON format for efficiency
+- Remove calendar event colour set because it does not affect the calendar app event colour
+- Fix wind direction explanation
+- Fix language in search song lyrics (without changing the lyrics language)
+- Fix typo
+
 v3.6
 - Fix colour format while adding a calendar event
 - Add calendar event does not return ID to prevent confusion
@@ -115,15 +124,6 @@ v2.8
 - Move Stop Process long press action to Stop Speech
 - Fix bugs and improvements
 
-v2.7
-- Add a new model gemini-3.1-flash-lite
-- Reads the content of a URL
-- Adding Files in multi paths
-- Allow Java Code to access Pictures/Karen AI Art/ directory
-- Add options info in Voice Prompt dialog
-- Log Offline Mode in KarenPrompt.txt if no require generate
-- Fix dang bugs 😣
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -133,7 +133,7 @@ v2.7
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/ej92b3zg8r2i
+- https://devuploads.com/jnwe4s3fwm5t
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
