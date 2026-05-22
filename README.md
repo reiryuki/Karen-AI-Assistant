@@ -49,6 +49,15 @@ Or via adb shell:
 
 ## Changelog
 
+v3.8
+- The Continue feature also has the ability to read URL content and Web Search if Agents want to use that
+- Now you can change upload length limit in settings
+- Voice Chat output maximum 3 results for better experience
+- Fix workspace retry context
+- Fix latest screenshot bug
+- Fix wrong logic in upload files
+- Fix other #ah bugs and typos
+
 v3.7
 - Add gemini-3.5-flash
 - Only trigger Web Search if toggler is Nothing
@@ -116,14 +125,6 @@ v2.9
 - Forgot to set default model to the new gemini-3.1-flash-lite if it's not set
 - Improvements
 
-v2.8
-- Encryption decryption API keys for security (you need to re-set your API keys)
-- Add Search Song Lyrics/Chords feature
-- Fix *prompt* and *dummy* word issue
-- Separation of Settings UI
-- Move Stop Process long press action to Stop Speech
-- Fix bugs and improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -133,7 +134,7 @@ v2.8
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/jnwe4s3fwm5t
+- https://devuploads.com/n1ymmjsm1abk
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
