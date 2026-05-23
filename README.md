@@ -5,8 +5,8 @@
 - Karen AI Assistant is a powerful Android AI Assistant which not only chats but also web search live information, automate tasks, productivity, and intelligent device interaction.
 
 ## Features
-- Default Assistant
-- 2 AI Agents
+- Default Assistant Integration
+- Dual AI Agents
 - Voice & Text Chat
 - Continue with or without You (Generate text with history without additional prompt)
 - Screen Info (Requires this app to be set as default assistant app)
@@ -48,6 +48,11 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v3.9
+- Fix persistent bug at initialization
+- Prevent Agents from creating their own calendar events without being instructed to do so by user
+- Redirect to online mode if offline mode is error in Apps feature
 
 v3.8
 - The Continue feature also has the ability to read URL content and Web Search if Agents want to use that
@@ -112,19 +117,6 @@ v3.0
 - Latest informations detection
 - Improvements
 
-v2.9
-- Change string alias of ElevenLabs Speech API Key (please re-set your API key if you're using it)
-- Fix Run Shell
-- Retry Run Shell and fixing errors max 3 times automatically
-- Rename Run Shell to Workspace
-- Remove Google News and fully using DuckDuckGo Search instead
-- Reads another URL content if it's empty/error
-- Does not show files list in Text Prompt
-- Fix Files set after Create Image
-- Forgot to tidy up landscape mode
-- Forgot to set default model to the new gemini-3.1-flash-lite if it's not set
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -134,7 +126,7 @@ v2.9
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/n1ymmjsm1abk
+- https://devuploads.com/889b8l397yqn
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
