@@ -49,6 +49,15 @@ Or via adb shell:
 
 ## Changelog
 
+v4.0
+- No files size limit (implementing Google Files API)
+- Fix history changes not saved to KarenSave.txt
+- Assistant request also triggers notification and quick access notifications
+- Asks permission at boot if it fails to re-set default assistant
+- Fix keywords in search song lyrics/chords feature
+- Support multi users (using /storage/emulated/<uid>)
+- Improvements
+
 v3.9
 - Fix persistent bug at initialization
 - Prevent Agents from creating their own calendar events without being instructed to do so by user
@@ -112,11 +121,6 @@ v3.1
 - Add a new feature "Add Text to Image"
 - Fix bugs
 
-v3.0
-- Fix blocking while reading a URL content
-- Latest informations detection
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -126,7 +130,7 @@ v3.0
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/889b8l397yqn
+- https://devuploads.com/amzq5ntwi0ji
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
