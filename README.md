@@ -55,7 +55,7 @@ v4.0
 - Assistant request also triggers notification and quick access notifications
 - Asks permission at boot if it fails to re-set default assistant
 - Fix keywords in search song lyrics/chords feature
-- Support multi users (using /storage/emulated/<uid>)
+- Support multi users (using /storage/emulated/\<uid\>)
 - Improvements
 
 v3.9
