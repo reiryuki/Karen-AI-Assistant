@@ -49,6 +49,11 @@ Or via adb shell:
 
 ## Changelog
 
+v4.1
+- Fix Screen Info feature bug
+- Fix extracting file bugs
+- Improvements
+
 v4.0
 - No files size limit (implementing Google Files API)
 - Fix history changes not saved to KarenSave.txt
@@ -117,10 +122,6 @@ v3.2
 - Add Text to Image enhancements
 - Improvements
 
-v3.1
-- Add a new feature "Add Text to Image"
-- Fix bugs
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -130,7 +131,7 @@ v3.1
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/amzq5ntwi0ji
+- https://devuploads.com/t2r5funq716b
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
