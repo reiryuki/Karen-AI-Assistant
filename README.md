@@ -12,7 +12,7 @@
 - Screen Info (Requires this app to be set as default assistant app)
 - Latest Screenshot
 - Front & Rear camera
-- Any Files
+- Support any type Files but .dex and .exe file is unsupported
 - Apps
   - Launch any apps (offline if app name (ignore case) or package name match)
   - Show all installed apps with "list" (ignore case)
@@ -48,6 +48,12 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v4.2
+- Support upload .sh file
+- Fix search song lyrics/chords keywords bug
+- Fix bug while sorting URLs
+- Fix Tasker variables escape
 
 v4.1
 - Fix Screen Info feature bug
@@ -117,11 +123,6 @@ v3.3
 - Fix read a URL content bugs
 - Limit 1000000 characters length for read URL content to prevent failure
 
-v3.2
-- Fix Create Image crash in Android 16
-- Add Text to Image enhancements
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -131,7 +132,7 @@ v3.2
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/t2r5funq716b
+- https://devuploads.com/27qzo6h5qv2b
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
