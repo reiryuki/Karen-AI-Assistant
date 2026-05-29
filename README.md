@@ -1,7 +1,7 @@
 # Karen AI Assistant
 
 ## Descriptions
-- An app powered by Tasker and Google Gemini AI
+- Android application powered by Tasker and Google Gemini AI
 - Karen AI Assistant is a powerful Android AI Assistant which not only chats but also web search live information, automate tasks, productivity, and intelligent device interaction.
 
 ## Features
@@ -10,9 +10,9 @@
 - Voice & Text Chat
 - Continue with or without You (Generate text with history without additional prompt)
 - Screen Info (Requires this app to be set as default assistant app)
-- Latest Screenshot
+- Latest/Auto Screenshot
 - Front & Rear camera
-- Support any type Files but .dex and .exe file is unsupported
+- Supports any type Files but .dex and .exe file is unsupported
 - Apps
   - Launch any apps (offline if app name (ignore case) or package name match)
   - Show all installed apps with "list" (ignore case)
@@ -23,7 +23,7 @@
 - Reads a URL content
 - Web Search
 - Add/update/delete calendar events
-- Weather
+- Real time weather
 - Create Image (Can create image without toggling to Create Image feature)
 - Add Text to Image
 - Modify AI Agents data
@@ -31,23 +31,36 @@
 - Multi languages
 - Google Speech and ElevenLabs Speech
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
-- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor accessibility service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
+- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
 
 ## Advanced Features
 These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
-- Auto screenshot without activating the accessibility service
+- Auto Screenshot without activating the Accessibility Service
 - Screen Info without setting this app as default assistant app
 
-You can grant WRITE_SECURE_SETTINGS permission via root in Termux/Terminal:
+You can grant WRITE_SECURE_SETTINGS permission via root in Termux/Terminal if your device is rooted:
 
 `su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
+
+Or just grant root to grant android.permission.WRITE_SECURE_SETTINGS automatically if it's asked at boot.
 
 Or via adb shell:
 
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v4.3
+- Exclude mathematical calculations from Web Search
+- Fix some unexpected responses
+- Add switch Latest/Auto Screenshot in long press
+- Fix persistent bug in Screen Info feature
+- Fix Web Search Data text display
+- Improvement in Settings pop up
+- Add Notify trigger button
+- Use root to force stop Google Speech automatically if possible
+- Change Agents Data (add timestamp)
 
 v4.2
 - Support upload .sh file
@@ -117,12 +130,6 @@ v3.4
 - Prevent upload files failure
 - Fix other bugs & improvements
 
-v3.3
-- Can create image without toggling to Create Image feature
-- Long press Keep Speech to go to system speech settings
-- Fix read a URL content bugs
-- Limit 1000000 characters length for read URL content to prevent failure
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -132,11 +139,12 @@ v3.3
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/27qzo6h5qv2b
+- https://devuploads.com/429q7270dp7d
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
   - Add Text to Image > add image
+  - Screenshot > Latest/Auto
   - Keep Speech > system speech settings
   - Search Song > Lyrics/Chords
   - Continue > with You/without You
@@ -144,7 +152,8 @@ v3.3
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
-- Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press the Stop Speech to force stop Google Speech manually.
+- Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press the Stop Speech to force stop Google Speech manually. If you are rooted, just grant root if it's asked, so you don't need to force stop manually.
+- If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" is occur, that means it's blocked by your provider and you need to use DNS or VPN.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
