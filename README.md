@@ -51,6 +51,12 @@ Or via adb shell:
 
 ## Changelog
 
+v4.4
+- Fix time zone in system instruction
+- Add timestamp correction
+- Fix error while adding files/image URI
+- Improvements
+
 v4.3
 - Exclude mathematical calculations from Web Search
 - Fix some unexpected responses
@@ -122,14 +128,6 @@ v3.5
 - Unknown errors handling
 - Improvements
 
-v3.4
-- Add an ability to add/update/delete calendar events
-- Add Calendar Name setting
-- Fix Create Image errors
-- Fix Web Search keywords
-- Prevent upload files failure
-- Fix other bugs & improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -139,7 +137,7 @@ v3.4
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/429q7270dp7d
+- https://devuploads.com/fzybx7zibuig
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
@@ -149,6 +147,20 @@ v3.4
   - Search Song > Lyrics/Chords
   - Continue > with You/without You
   - Stop Speech > manual force stop Google Speech
+  
+## Troubleshootings
+If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
+If the issue still persist, try to search "Restricted Settings" in your Settings app and allow this app there.
+But if you can't find it, then you can allow it via root access:
+  
+`su -c appops set reiryuki.karenaiassistant ACCESS_RESTRICTED_SETTINGS allow`
+  
+Or just grant the root access if it's asked in the app and it will run the line above automatically. 
+  
+Or run via adb shell:
+  
+`adb shell appops set reiryuki.karenaiassistant ACCESS_RESTRICTED_SETTINGS allow`
+  
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
