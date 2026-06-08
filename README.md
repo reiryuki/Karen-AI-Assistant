@@ -32,6 +32,7 @@
 - Google Speech and ElevenLabs Speech
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
+- Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
 
 ## Advanced Features
@@ -50,6 +51,16 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v4.5
+- Process any math calculations via Java Code (without toggling to Java Code feature) for accuracy of results
+- Fix Add Text to Image bugs
+- Fix persistent bug at initialization
+- Fix excluding mathematical calculation from Web Search
+- Mentions battery level if it's lower than 21% and discharging
+- Fix error handlings
+- Change default Agents Data
+- Improvements
 
 v4.4
 - Fix time zone in system instruction
@@ -120,14 +131,6 @@ v3.6
 - Fix typo
 - Change default Agents Data
 
-v3.5
-- Fix wrong hours format in Calendar Event Start Time & Calendar Event End Time
-- Summarize old chat 10000 chars length
-- Limit 900000 characters length for files and URL content to prevent failure
-- Does not trigger Web Search if Screen Info is ON
-- Unknown errors handling
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -137,7 +140,7 @@ v3.5
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/fzybx7zibuig
+- https://devuploads.com/pqtyt113mnuv
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > add/remove files
