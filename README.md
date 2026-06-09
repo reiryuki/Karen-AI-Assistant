@@ -11,7 +11,7 @@
 - Continue with or without You (Generate text with history without additional prompt)
 - Screen Info (Requires this app to be set as default assistant app)
 - Latest/Auto Screenshot
-- Front & Rear camera
+- Front/Rear/Latest Camera
 - Supports any type Files but .dex and .exe file is unsupported
 - Apps
   - Launch any apps (offline if app name (ignore case) or package name match)
@@ -31,7 +31,7 @@
 - Multi languages
 - Google Speech and ElevenLabs Speech
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
-- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission. Cannot access outside of Karen_AI_Assistant/workspace/ and Pictures/Karen AI Art/ directory.)
+- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission.)
 - Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
 
@@ -51,6 +51,14 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Changelog
+
+v4.6
+- Change target SDK to 35 (yeah it bloats the app size significantly)
+- Shows running tasks in Stop Process long press
+- Add Latest Camera picture feature option
+- Fix actions flow logic fault in Java Code task
+- Fix bugs in math calculations
+- Remove directory restrictions in Java Code
 
 v4.5
 - Process any math calculations via Java Code (without toggling to Java Code feature) for accuracy of results
@@ -122,15 +130,6 @@ v3.7
 - Fix language in search song lyrics (without changing the lyrics language)
 - Fix typo
 
-v3.6
-- Fix colour format while adding a calendar event
-- Add calendar event does not return ID to prevent confusion
-- Tells calendar info if needed only for efficiency
-- Summarize old chat 20000 chars length
-- Fix bugs in Apps feature and backup feature
-- Fix typo
-- Change default Agents Data
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -140,16 +139,17 @@ v3.6
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/pqtyt113mnuv
+- https://devuploads.com/1u1uw8icjw14
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
-  - Files > add/remove files
-  - Add Text to Image > add image
+  - Files > Add/remove files
+  - Add Text to Image > Add image
   - Screenshot > Latest/Auto
-  - Keep Speech > system speech settings
+  - Keep Speech > System speech settings
   - Search Song > Lyrics/Chords
   - Continue > with You/without You
-  - Stop Speech > manual force stop Google Speech
+  - Stop Speech > Manual force stop Google Speech
+  - Stop Process > Shows running tasks
   
 ## Troubleshootings
 If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
