@@ -52,6 +52,12 @@ Or via adb shell:
 
 ## Changelog
 
+v4.7
+- Fix serious bugs (my fault, sorry) in Add Files/Image which results in the files being deleted after clicking Remove (Files deletion is only intended for temporary URI files stored in Karen_AI_Assistant/.uri/ directory)
+- Update Java Code instruction
+- Escape Tasker vars without escaping the real text
+- Change icon
+
 v4.6
 - Change target SDK to 35 (yeah it bloats the app size significantly)
 - Shows running tasks in Stop Process long press
@@ -121,25 +127,16 @@ v3.8
 - Fix wrong logic in upload files
 - Fix other #ah bugs and typos
 
-v3.7
-- Add gemini-3.5-flash
-- Only trigger Web Search if toggler is Nothing
-- Merge some detections into one JSON format for efficiency
-- Remove calendar event colour set because it does not affect the calendar app event colour
-- Fix wind direction explanation
-- Fix language in search song lyrics (without changing the lyrics language)
-- Fix typo
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
 - Create your own API key here first (it's free): https://aistudio.google.com/api-keys
-- https://play.google.com/store/apps/details?id=com.google.android.tts
+- System Speech. If your ROM doesn't have any system speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- (There is a serious fault in the Files Remove logic so the link is removed. Just wait for the next update for fix.)
+- https://devuploads.com/ax5uym6kzsqu
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
@@ -153,7 +150,7 @@ v3.7
   
 ## Troubleshootings
 If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
-If the issue still persist, try to search "Restricted Settings" in your Settings app and allow this app there.
+If the issue still persists, try to search "Restricted Settings" in your Settings app and allow this app there.
 But if you can't find it, then you can allow it via root access:
   
 `su -c appops set reiryuki.karenaiassistant ACCESS_RESTRICTED_SETTINGS allow`
@@ -168,7 +165,7 @@ Or run via adb shell:
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
 - Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press the Stop Speech to force stop Google Speech manually. If you are rooted, just grant root if it's asked, so you don't need to force stop manually.
-- If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" is occur, that means it's blocked by your provider and you need to use DNS or VPN.
+- If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" occurs, that means it's blocked by your provider and you need to use DNS or VPN.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
