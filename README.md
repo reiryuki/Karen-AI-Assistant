@@ -142,6 +142,7 @@ v3.8
   - Files > Add/remove files
   - Add Text to Image > Add image
   - Screenshot > Latest/Auto
+  - Camera > Rear/Front/Latest
   - Keep Speech > System speech settings
   - Search Song > Lyrics/Chords
   - Continue > with You/without You
