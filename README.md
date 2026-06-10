@@ -139,7 +139,7 @@ v3.7
 - https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/1u1uw8icjw14
+- (There is a serious fault in the Files Remove logic so the link is removed. Just wait for the next update for fix.)
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
