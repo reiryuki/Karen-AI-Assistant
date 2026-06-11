@@ -52,6 +52,9 @@ Or via adb shell:
 
 ## Changelog
 
+v4.8
+- Fix a wrong logic in default Agents Data which results the AI putting quotation marks in the wrong place
+
 v4.7
 - Fix serious bugs (my fault, sorry) in Add Files/Image which results in the files being deleted after clicking Remove (Files deletion is only intended for temporary URI files stored in Karen_AI_Assistant/.uri/ directory)
 - Update Java Code instruction
@@ -136,7 +139,7 @@ v3.8
 - System Speech. If your ROM doesn't have any system speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/ax5uym6kzsqu
+- https://devuploads.com/3zhqwf27rv95
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
@@ -167,6 +170,7 @@ Or run via adb shell:
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
 - Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press the Stop Speech to force stop Google Speech manually. If you are rooted, just grant root if it's asked, so you don't need to force stop manually.
 - If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" occurs, that means it's blocked by your provider and you need to use DNS or VPN.
+- If error "Queue full for IP:" in Create Image, it's likely the server temporary issue and not the application code error.
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
