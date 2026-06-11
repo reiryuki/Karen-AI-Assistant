@@ -121,15 +121,6 @@ v3.9
 - Prevent Agents from creating their own calendar events without being instructed to do so by user
 - Redirect to online mode if offline mode is error in Apps feature
 
-v3.8
-- The Continue feature also has the ability to read URL content and Web Search if Agents want to use that
-- Now you can change upload length limit in settings
-- Voice Chat output maximum 3 results for better experience
-- Fix workspace retry context
-- Fix latest screenshot bug
-- Fix wrong logic in upload files
-- Fix other #ah bugs and typos
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
