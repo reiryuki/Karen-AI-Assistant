@@ -52,6 +52,12 @@ Or via adb shell:
 
 ## Changelog
 
+v4.9
+- Default Agents Data: Fix emoji not inside the quotation marks
+- Fix calculator initialization bug
+- Workspace: Ensures output and error are right below shell commands
+- Fix Speech text filter
+
 v4.8
 - Fix a wrong logic in default Agents Data which results the AI putting quotation marks in the wrong place
 
@@ -116,11 +122,6 @@ v4.0
 - Support multi users (using /storage/emulated/\<uid\>)
 - Improvements
 
-v3.9
-- Fix persistent bug at initialization
-- Prevent Agents from creating their own calendar events without being instructed to do so by user
-- Redirect to online mode if offline mode is error in Apps feature
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -130,7 +131,7 @@ v3.9
 - System Speech. If your ROM doesn't have any system speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/3zhqwf27rv95
+- https://devuploads.com/wdguzrz20il2
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
