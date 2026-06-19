@@ -52,6 +52,11 @@ Or via adb shell:
 
 ## Changelog
 
+v5.0
+- Add Focus ON/OFF at Edit History long press
+- Workspace: Revert previous failure changes
+- Minor changes at default Agents Data
+
 v4.9
 - Default Agents Data: Fix emoji not inside the quotation marks
 - Fix calculator initialization bug
@@ -113,15 +118,6 @@ v4.1
 - Fix extracting file bugs
 - Improvements
 
-v4.0
-- No files size limit (implementing Google Files API)
-- Fix history changes not saved to KarenSave.txt
-- Assistant request also triggers notification and quick access notifications
-- Asks permission at boot if it fails to re-set default assistant
-- Fix keywords in search song lyrics/chords feature
-- Support multi users (using /storage/emulated/\<uid\>)
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -131,7 +127,7 @@ v4.0
 - System Speech. If your ROM doesn't have any system speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/wdguzrz20il2
+- https://devuploads.com/jdjp431y41q9
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
@@ -141,6 +137,7 @@ v4.0
   - Keep Speech > System speech settings
   - Search Song > Lyrics/Chords
   - Continue > with You/without You
+  - Edit History > Focus ON/OFF
   - Stop Speech > Manual force stop Google Speech
   - Stop Process > Shows running tasks
   
