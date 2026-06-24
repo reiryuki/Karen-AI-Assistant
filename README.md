@@ -52,6 +52,11 @@ Or via adb shell:
 
 ## Changelog
 
+v5.2
+- Removes old web search data before generate
+- Remove a useless ability in "Continue"
+- Default Agents Data impovement
+
 v5.1
 - Search Song:
   - Fix keywords
@@ -112,12 +117,6 @@ v4.3
 - Use root to force stop Google Speech automatically if possible
 - Change Agents Data (add timestamp)
 
-v4.2
-- Support upload .sh file
-- Fix search song lyrics/chords keywords bug
-- Fix bug while sorting URLs
-- Fix Tasker variables escape
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -127,7 +126,7 @@ v4.2
 - System Speech. If your ROM doesn't have any system speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/jwpjkxx1vfd7
+- https://devuploads.com/xmd0r7uxb0p9
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
