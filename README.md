@@ -55,6 +55,7 @@ Or via adb shell:
 v5.2
 - Removes old web search data before generate
 - Remove a useless ability in "Continue"
+- Does not trigger Web Search if user ask to translate
 - Default Agents Data impovement
 
 v5.1
