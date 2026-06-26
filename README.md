@@ -52,6 +52,14 @@ Or via adb shell:
 
 ## Changelog
 
+v5.3
+- Fix force stop Speech if system Speech is not Google Speech
+- System Speech speed and pitch is based on the default system settings
+- Internal prompt improvements
+- Default Agents Data impovement
+- No longer restrict Web Search if toggler is Nothing only
+- Turns off notify click monitor if not needed
+
 v5.2
 - Removes old web search data before generate
 - Remove a useless ability in "Continue"
@@ -107,27 +115,16 @@ v4.4
 - Fix error while adding files/image URI
 - Improvements
 
-v4.3
-- Exclude mathematical calculations from Web Search
-- Fix some unexpected responses
-- Add switch Latest/Auto Screenshot in long press
-- Fix persistent bug in Screen Info feature
-- Fix Web Search Data text display
-- Improvement in Settings pop up
-- Add Notify trigger button
-- Use root to force stop Google Speech automatically if possible
-- Change Agents Data (add timestamp)
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
 - Create your own API key here first (it's free): https://aistudio.google.com/api-keys
-- System Speech. If your ROM doesn't have any system speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
+- System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/xmd0r7uxb0p9
+- https://devuploads.com/vf5p7njscfz2
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
