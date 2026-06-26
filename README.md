@@ -56,7 +56,7 @@ v5.3
 - Fix force stop Speech if system Speech is not Google Speech
 - System Speech speed and pitch is based on the default system settings
 - Internal prompt improvements
-- Default Agents Data impovement
+- Default Agents Data improvement
 - No longer restrict Web Search if toggler is Nothing only
 - Turns off notify click monitor if not needed
 
