@@ -52,6 +52,12 @@ Or via adb shell:
 
 ## Changelog
 
+v5.4
+- Default Agents Data fix and improvement
+- Internal prompts fix and efficiency
+- Tells calendar info to AI before adding new event, not only while deleting and updating
+- Force reupload files if previously uploaded files are not done yet
+
 v5.3
 - Fix force stop Speech if system Speech is not Google Speech
 - System Speech speed and pitch is based on the default system settings
@@ -109,12 +115,6 @@ v4.5
 - Change default Agents Data
 - Improvements
 
-v4.4
-- Fix time zone in system instruction
-- Add timestamp correction
-- Fix error while adding files/image URI
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -124,7 +124,7 @@ v4.4
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/vf5p7njscfz2
+- https://devuploads.com/nqgjt6bz7rej
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
