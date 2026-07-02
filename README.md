@@ -52,6 +52,10 @@ Or via adb shell:
 
 ## Changelog
 
+v5.5
+- AI say thanks after the charger is connected in the next generate
+- Default Agents Data: Fix persistent timestamp bug
+
 v5.4
 - Default Agents Data fix and improvement
 - Internal prompts fix and efficiency
@@ -124,7 +128,7 @@ v4.5
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/nqgjt6bz7rej
+- https://devuploads.com/fm77nbi2cul4
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
