@@ -109,16 +109,6 @@ v4.6
 - Fix bugs in math calculations
 - Remove directory restrictions in Java Code
 
-v4.5
-- Process any math calculations via Java Code (without toggling to Java Code feature) for accuracy of results
-- Fix Add Text to Image bugs
-- Fix persistent bug at initialization
-- Fix excluding mathematical calculation from Web Search
-- Mentions battery level if it's lower than 21% and discharging
-- Fix error handlings
-- Change default Agents Data
-- Improvements
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
