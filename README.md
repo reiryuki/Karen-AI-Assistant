@@ -52,6 +52,10 @@ Or via adb shell:
 
 ## Changelog
 
+v5.6
+- Fix Files data are deleted unexpectedly after processing mathematical calculation with Java Code
+- Default Agents Data improvement
+
 v5.5
 - AI say thanks after the charger is connected in the next generate
 - Default Agents Data: Fix persistent timestamp bug
@@ -101,14 +105,6 @@ v4.7
 - Escape Tasker vars without escaping the real text
 - Change icon
 
-v4.6
-- Change target SDK to 35 (yeah it bloats the app size significantly)
-- Shows running tasks in Stop Process long press
-- Add Latest Camera picture feature option
-- Fix actions flow logic fault in Java Code task
-- Fix bugs in math calculations
-- Remove directory restrictions in Java Code
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -118,7 +114,7 @@ v4.6
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/fm77nbi2cul4
+- https://devuploads.com/eh1os0xi3kjs
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
