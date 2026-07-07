@@ -52,6 +52,11 @@ Or via adb shell:
 
 ## Changelog
 
+v5.7
+- Exclude Web Search if user is asking for grammar check
+- Default Agents Data: Fix inconsistent timestamp
+- Math calculation and Java Code improvements
+
 v5.6
 - Fix Files data are deleted unexpectedly after processing mathematical calculation with Java Code
 - Default Agents Data improvement
@@ -99,12 +104,6 @@ v4.9
 v4.8
 - Fix a wrong logic in default Agents Data which results the AI putting quotation marks in the wrong place
 
-v4.7
-- Fix serious bugs (my fault, sorry) in Add Files/Image which results in the files being deleted after clicking Remove (Files deletion is only intended for temporary URI files stored in Karen_AI_Assistant/.uri/ directory)
-- Update Java Code instruction
-- Escape Tasker vars without escaping the real text
-- Change icon
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -114,7 +113,7 @@ v4.7
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/eh1os0xi3kjs
+- https://devuploads.com/jovdgvs5o68u
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
