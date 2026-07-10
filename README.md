@@ -52,6 +52,11 @@ Or via adb shell:
 
 ## Changelog
 
+v5.8
+- Fix dark mode while battery saver is on in AOSP
+- Default Agents Data improvement
+- Fix bugs
+
 v5.7
 - Exclude Web Search if user is asking for grammar check
 - Default Agents Data: Fix inconsistent timestamp
@@ -101,9 +106,6 @@ v4.9
 - Workspace: Ensures output and error are right below shell commands
 - Fix Speech text filter
 
-v4.8
-- Fix a wrong logic in default Agents Data which results the AI putting quotation marks in the wrong place
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -113,7 +115,7 @@ v4.8
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/jovdgvs5o68u
+- https://devuploads.com/ruli49h9zex0
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
