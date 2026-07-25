@@ -52,6 +52,12 @@ Or via adb shell:
 
 ## Changelog
 
+v5.9
+- Add some new models
+- Fix empty vars list in Apps feature if no disabled apps
+- Fix malformed start time and end time calendar event
+- Improvements
+
 v5.8
 - Fix dark mode while battery saver is on in AOSP
 - Default Agents Data improvement
@@ -115,7 +121,7 @@ v4.9
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/ruli49h9zex0
+- https://devuploads.com/f8wyya5kmha2
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
