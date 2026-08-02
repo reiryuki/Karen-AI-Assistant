@@ -121,7 +121,7 @@ v4.9
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://devuploads.com/f8wyya5kmha2
+- https://bicolink.com/DlwT1ZI
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
@@ -134,7 +134,10 @@ v4.9
   - Edit History > Focus ON/OFF
   - Stop Speech > Manual force stop Google Speech
   - Stop Process > Shows running tasks
-  
+
+## Download Tutorial
+https://t.me/ryukinotes/97
+
 ## Troubleshootings
 If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
 If the issue still persists, try to search "Restricted Settings" in your Settings app and allow this app there.
