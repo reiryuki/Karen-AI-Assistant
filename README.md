@@ -52,6 +52,10 @@ Or via adb shell:
 
 ## Changelog
 
+v6.0
+- Add new models
+- Data improvements
+
 v5.9
 - Add some new models
 - Fix empty vars list in Apps feature if no disabled apps
@@ -101,17 +105,6 @@ v5.1
   - Fix keywords
   - Exclude video/recording URLs
 
-v5.0
-- Add Focus ON/OFF at Edit History long press
-- Workspace: Revert previous failure changes
-- Minor changes at default Agents Data
-
-v4.9
-- Default Agents Data: Fix emoji not inside the quotation marks
-- Fix calculator initialization bug
-- Workspace: Ensures output and error are right below shell commands
-- Fix Speech text filter
-
 ## Screenshots
 - https://t.me/ryukimodsscreenshots/117
 
@@ -121,7 +114,7 @@ v4.9
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Link & Instructions
-- https://bicolink.com/DlwT1ZI
+- https://bicolink.com/52k3
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
