@@ -155,7 +155,7 @@ Or run via adb shell:
 
 ## Credits and contributors
 - https://t.me/androidryukimodsdiscussions
-- You can contribute ideas about this app/project here: https://t.me/androidappsportdevelopment
+- https://t.me/androidappsportdevelopment
 
 ## Sponsors
 https://t.me/ryukinotes/25
