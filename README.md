@@ -50,9 +50,21 @@ Or via adb shell:
 
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
-## Changelog
+## Screenshots
+- https://t.me/ryukimodsscreenshots/117
 
-v6.0
+## Requirements
+- Android 8.1 (SDK 27) and up
+- Create your own API key here first (it's free): https://aistudio.google.com/api-keys
+- System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
+
+## Download Links and Changelog
+
+v6.1 https://move2link.co/92cabda
+- Remove unavailable model
+- Data improvements
+
+v6.0 https://move2link.co/8ed486e
 - Add new models
 - Data improvements
 
@@ -100,21 +112,10 @@ v5.2
 - Does not trigger Web Search if user ask to translate
 - Default Agents Data impovement
 
-v5.1
-- Search Song:
-  - Fix keywords
-  - Exclude video/recording URLs
+## Download Tutorial
+https://t.me/ryukinotes/97
 
-## Screenshots
-- https://t.me/ryukimodsscreenshots/117
-
-## Requirements
-- Android 8.1 (SDK 27) and up
-- Create your own API key here first (it's free): https://aistudio.google.com/api-keys
-- System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
-
-## Download Link & Instructions
-- https://bicolink.com/52k3
+## Instructions
 - In Android 13 and above, enable notification permission manually to get features from notification.
 - Long press functions:
   - Files > Add/remove files
@@ -127,9 +128,6 @@ v5.1
   - Edit History > Focus ON/OFF
   - Stop Speech > Manual force stop Google Speech
   - Stop Process > Shows running tasks
-
-## Download Tutorial
-https://t.me/ryukinotes/97
 
 ## Troubleshootings
 If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
