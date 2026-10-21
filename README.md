@@ -68,7 +68,7 @@ v6.2 https://move2link.co/d8000fd
 - Long press Workspace to view files in the workspace directory
 - Checks MD5 files. If the MD5 doesn't match with previous MD5 then it will reupload automatically.
 - Remove Reupload button
-- Does not speech <return> and </return>
+- Does not speech \<return\> and \</return\>
 - Data improvements
 
 v6.1 https://move2link.co/92cabda
