@@ -60,6 +60,17 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v6.2 https://move2link.co/d8000fd
+- Fix bug empty %karen_initial1
+- Fix wrong format start_time end_time calendar event
+- Display model at the Settings page
+- Uploads files (except hidden files) in workspace directory if Workspace feature is ON
+- Long press Workspace to view files in the workspace directory
+- Checks MD5 files. If the MD5 doesn't match with previous MD5 then it will reupload automatically.
+- Remove Reupload button
+- Does not speech <return> and </return>
+- Data improvements
+
 v6.1 https://move2link.co/92cabda
 - Remove unavailable model
 - Data improvements
@@ -106,12 +117,6 @@ v5.3
 - No longer restrict Web Search if toggler is Nothing only
 - Turns off notify click monitor if not needed
 
-v5.2
-- Removes old web search data before generate
-- Remove a useless ability in "Continue"
-- Does not trigger Web Search if user ask to translate
-- Default Agents Data impovement
-
 ## Download Tutorial
 https://t.me/ryukinotes/97
 
@@ -128,6 +133,7 @@ https://t.me/ryukinotes/97
   - Edit History > Focus ON/OFF
   - Stop Speech > Manual force stop Google Speech
   - Stop Process > Shows running tasks
+  - Workspace > View files in the workspace directory
 
 ## Troubleshootings
 If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
