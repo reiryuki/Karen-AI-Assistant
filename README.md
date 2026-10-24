@@ -60,6 +60,10 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v6.3 https://move2link.co/8a9800e
+- Fix bug empty %karen_files at MD5 Check
+- Data improvements
+
 v6.2 https://move2link.co/d8000fd
 - Fix bug empty %karen_initial1
 - Fix wrong format start_time end_time calendar event
@@ -108,14 +112,6 @@ v5.4
 - Internal prompts fix and efficiency
 - Tells calendar info to AI before adding new event, not only while deleting and updating
 - Force reupload files if previously uploaded files are not done yet
-
-v5.3
-- Fix force stop Speech if system Speech is not Google Speech
-- System Speech speed and pitch is based on the default system settings
-- Internal prompt improvements
-- Default Agents Data improvement
-- No longer restrict Web Search if toggler is Nothing only
-- Turns off notify click monitor if not needed
 
 ## Download Tutorial
 https://t.me/ryukinotes/97
