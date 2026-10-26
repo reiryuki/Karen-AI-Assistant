@@ -12,7 +12,7 @@
 - Screen Info (Requires this app to be set as default assistant app)
 - Latest/Auto Screenshot
 - Front/Rear/Latest Camera
-- Supports any type Files but .dex and .exe file is unsupported
+- Supports any Files
 - Apps
   - Launch any apps (offline if app name (ignore case) or package name match)
   - Show all installed apps with "list" (ignore case)
@@ -60,6 +60,11 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v6.4 https://move2link.co/ec6b9c4
+- Support all files
+- Does not unzip compressed files
+- Data improvements
+
 v6.3 https://move2link.co/8a9800e
 - Fix bug empty %karen_files at MD5 Check
 - Data improvements
@@ -106,12 +111,6 @@ v5.6
 v5.5
 - AI say thanks after the charger is connected in the next generate
 - Default Agents Data: Fix persistent timestamp bug
-
-v5.4
-- Default Agents Data fix and improvement
-- Internal prompts fix and efficiency
-- Tells calendar info to AI before adding new event, not only while deleting and updating
-- Force reupload files if previously uploaded files are not done yet
 
 ## Download Tutorial
 https://t.me/ryukinotes/97
