@@ -60,6 +60,10 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v6.5 https://move2link.co/fc661db
+- Fix bugs which caused Screenshot and Camera features doesn't work
+- Data improvements
+
 v6.4 https://move2link.co/ec6b9c4
 - Support all files
 - Does not unzip compressed files
@@ -107,10 +111,6 @@ v5.7
 v5.6
 - Fix Files data are deleted unexpectedly after processing mathematical calculation with Java Code
 - Default Agents Data improvement
-
-v5.5
-- AI say thanks after the charger is connected in the next generate
-- Default Agents Data: Fix persistent timestamp bug
 
 ## Download Tutorial
 https://t.me/ryukinotes/97
