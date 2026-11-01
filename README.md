@@ -60,6 +60,11 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v6.6 https://move2link.co/6d8d111
+- Reupload files if they have reached the age of 47 hours because the uploaded files are limited to 48 hours in Gemini AI Files API
+- Fix bugs
+- Data improvements
+
 v6.5 https://move2link.co/fc661db
 - Fix bugs which caused Screenshot and Camera features doesn't work
 - Data improvements
