@@ -29,7 +29,7 @@
 - Modify AI Agents data
 - User Personalization
 - Multi languages
-- Google Speech and ElevenLabs Speech
+- System Speech and ElevenLabs Speech
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission.)
 - Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
@@ -131,7 +131,7 @@ https://t.me/ryukinotes/97
   - Search Song > Lyrics/Chords
   - Continue > with You/without You
   - Edit History > Focus ON/OFF
-  - Stop Speech > Manual force stop Google Speech
+  - Stop Speech > Manual force stop system Speech
   - Stop Process > Shows running tasks
   - Workspace > View files in the workspace directory
 
@@ -151,7 +151,7 @@ Or run via adb shell:
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
-- Sometimes Google Speech is not stopping even if you have clicked Stop Speech button. To fix that, you can long press the Stop Speech to force stop Google Speech manually. If you are rooted, just grant root if it's asked, so you don't need to force stop manually.
+- If the text output contains 3500 characters or more, Google Speech is not stopping even you have clicked the Stop Speech button. To fix that, you can long press the Stop Speech button to force stop Google Speech manually. If you are rooted, just grant root if it's asked, so you don't need to force stop manually.
 - If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" occurs, that means it's blocked by your provider and you need to use DNS or VPN.
 - If error "Queue full for IP:" in Create Image, it's likely the server temporary issue and not the application code error.
 
