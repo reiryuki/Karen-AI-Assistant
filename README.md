@@ -33,6 +33,7 @@
 - Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
 - Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission.)
 - Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
+- Information about the actual device battery temperature, CPU frequency, and free RAM.
 - Read My Text (Just paste your copied text and it will be read directly with Speech)
 
 ## Advanced Features
@@ -59,6 +60,10 @@ Or via adb shell:
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Links and Changelog
+
+v6.7 https://move2link.co/fb53079
+- Tells the AI about the actual device battery temperature, CPU frequency, and free RAM.
+- Data improvements
 
 v6.6 https://move2link.co/6d8d111
 - Reupload files if they have reached the age of 47 hours because the uploaded files are limited to 48 hours in Gemini AI Files API
@@ -108,15 +113,6 @@ v5.8
 - Default Agents Data improvement
 - Fix bugs
 
-v5.7
-- Exclude Web Search if user is asking for grammar check
-- Default Agents Data: Fix inconsistent timestamp
-- Math calculation and Java Code improvements
-
-v5.6
-- Fix Files data are deleted unexpectedly after processing mathematical calculation with Java Code
-- Default Agents Data improvement
-
 ## Download Tutorial
 https://t.me/ryukinotes/97
 
@@ -155,7 +151,7 @@ Or run via adb shell:
 - If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" occurs, that means it's blocked by your provider and you need to use DNS or VPN.
 - If error "Queue full for IP:" in Create Image, it's likely the server temporary issue and not the application code error.
 
-## Support & Bug Report
+## Support and Bug Report
 - https://t.me/ryukinotes/54
 - If you don't do above, issues will be closed immediately
 
@@ -163,7 +159,7 @@ Or run via adb shell:
 - https://t.me/androidryukimodsdiscussions
 - https://t.me/androidappsportdevelopment
 
-## Sponsors
+## Sponsors and Donation
 https://t.me/ryukinotes/25
 
 
