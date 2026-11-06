@@ -52,7 +52,7 @@ Or via adb shell:
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
 ## Screenshots
-- https://t.me/ryukimodsscreenshots/117
+- https://t.me/ryukimodsscreenshots/147
 
 ## Requirements
 - Android 8.1 (SDK 27) and up
@@ -60,6 +60,13 @@ Or via adb shell:
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Links and Changelog
+
+v6.8 https://move2link.co/163f60d
+- Last time I checked, the Gemini AI Files API supported all files, including compressed files. But for some reason, it suddenly doesn't anymore, I don't know why. So this version I bring back unzipping compressed files before uploading and fix some unsupported files.
+- Limit the maximum number of file contents of a compressed file to be uploaded to 50 files, AI chooses.
+- Fix unsupported resolution while taking photo
+- Bring back event id output after adding a calendar event
+- Data improvements
 
 v6.7 https://move2link.co/fb53079
 - Tells the AI about the actual device battery temperature, CPU frequency, and free RAM.
