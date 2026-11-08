@@ -1,6 +1,6 @@
 # Karen AI Assistant
 
-## Descriptions
+## Description
 - Android application powered by Tasker and Google Gemini AI
 - Karen AI Assistant is a powerful Android AI Assistant which not only chats but also web search live information, automate tasks, productivity, and intelligent device interaction.
 
@@ -61,6 +61,12 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v6.9 https://move2link.co/8718d38
+- Countdown toast when uploading files
+- Revert generate timeout to 60 seconds instead of 120 seconds with uploaded files
+- Tidy up workspace toast view
+- Data improvements
+
 v6.8 https://move2link.co/163f60d
 - Last time I checked, the Gemini AI Files API supported all files, including compressed files. But for some reason, it suddenly doesn't anymore, I don't know why. So this version I bring back unzipping compressed files before uploading and fix some unsupported files.
 - Limit the maximum number of file contents of a compressed file to be uploaded to 50 files, AI chooses.
@@ -105,20 +111,9 @@ v6.1 https://move2link.co/92cabda
 - Remove unavailable model
 - Data improvements
 
-v6.0 https://move2link.co/8ed486e
+v6.0
 - Add new models
 - Data improvements
-
-v5.9
-- Add some new models
-- Fix empty vars list in Apps feature if no disabled apps
-- Fix malformed start time and end time calendar event
-- Improvements
-
-v5.8
-- Fix dark mode while battery saver is on in AOSP
-- Default Agents Data improvement
-- Fix bugs
 
 ## Download Tutorial
 https://t.me/ryukinotes/97
