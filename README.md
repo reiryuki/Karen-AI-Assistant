@@ -61,40 +61,45 @@ Or via adb shell:
 
 ## Download Links and Changelog
 
+v7.0 https://move2link.co/5b6faf9
+- Add a new model gemini-4-hydrogen
+- Fix bugs
+- System improvements
+
 v6.9 https://move2link.co/8718d38
 - Countdown toast when uploading files
 - Revert generate timeout to 60 seconds instead of 120 seconds with uploaded files
 - Tidy up workspace toast view
-- Data improvements
+- System improvements
 
 v6.8 https://move2link.co/163f60d
 - Last time I checked, the Gemini AI Files API supported all files, including compressed files. But for some reason, it suddenly doesn't anymore, I don't know why. So this version I bring back unzipping compressed files before uploading and fix some unsupported files.
 - Limit the maximum number of file contents of a compressed file to be uploaded to 50 files, AI chooses.
 - Fix unsupported resolution while taking photo
 - Bring back event id output after adding a calendar event
-- Data improvements
+- System improvements
 
 v6.7 https://move2link.co/fb53079
 - Tells the AI about the actual device battery temperature, CPU frequency, and free RAM.
-- Data improvements
+- System improvements
 
 v6.6 https://move2link.co/6d8d111
 - Reupload files if they have reached the age of 47 hours because the uploaded files are limited to 48 hours in Gemini AI Files API
 - Fix bugs
-- Data improvements
+- System improvements
 
 v6.5 https://move2link.co/fc661db
 - Fix bugs which caused Screenshot and Camera features doesn't work
-- Data improvements
+- System improvements
 
 v6.4 https://move2link.co/ec6b9c4
 - Support all files
 - Does not unzip compressed files
-- Data improvements
+- System improvements
 
 v6.3 https://move2link.co/8a9800e
 - Fix bug empty %karen_files at MD5 Check
-- Data improvements
+- System improvements
 
 v6.2 https://move2link.co/d8000fd
 - Fix bug empty %karen_initial1
@@ -105,15 +110,11 @@ v6.2 https://move2link.co/d8000fd
 - Checks MD5 files. If the MD5 doesn't match with previous MD5 then it will reupload automatically.
 - Remove Reupload button
 - Does not speech \<return\> and \</return\>
-- Data improvements
+- System improvements
 
 v6.1 https://move2link.co/92cabda
 - Remove unavailable model
-- Data improvements
-
-v6.0
-- Add new models
-- Data improvements
+- System improvements
 
 ## Download Tutorial
 https://t.me/ryukinotes/97
