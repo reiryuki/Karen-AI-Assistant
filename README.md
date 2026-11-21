@@ -8,8 +8,10 @@
 - Default Assistant Integration
 - Dual AI Agents
 - Voice & Text Chat
-- Continue with or without You (Generate text with history without additional prompt)
-- Screen Info (Requires this app to be set as default assistant app)
+- Continue with or without You
+  - Generate text with history without additional prompt
+- Screen Info
+  - Requires this app to be set as default assistant app
 - Latest/Auto Screenshot
 - Front/Rear/Latest Camera
 - Supports any Files
@@ -24,30 +26,38 @@
 - Web Search
 - Add/update/delete calendar events
 - Real time weather
-- Create Image (Can create image without toggling to Create Image feature)
+- Create Image
+  - Can create image without toggling to Create Image feature
 - Add Text to Image
 - Modify AI Agents data
 - User Personalization
 - Multi languages
 - System Speech and ElevenLabs Speech
-- Workspace (Does not allow root and cannot access outside of Karen_AI_Assistant/workspace/ directory)
-- Java Code (Prompt to control device via java code automatically. Does not use root nor adb shell nor Shizuku nor Accessibility Service permission.)
+- Workspace
+- Java Code
+  - Prompt to control device via Java Code Bean Shell automatically
+  - Does not use Root nor ADB Shell nor Shizuku nor Accessibility Service permission
+  - Can run Java Code without toggling to Java Code feature
+- Shell
+  - Prompt to run Shell commands
+  - Can run Shell without toggling to Shell feature but Workspace toggle must be turned on
 - Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
-- Information about the actual device battery temperature, CPU frequency, and free RAM.
-- Read My Text (Just paste your copied text and it will be read directly with Speech)
+- Information about the actual device battery temperature, CPU frequency, and free RAM
+- Read My Text
+  - Just paste your copied text and it will be read directly with Speech
 
 ## Advanced Features
 These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
 - Auto Screenshot without activating the Accessibility Service
 - Screen Info without setting this app as default assistant app
 
-You can grant WRITE_SECURE_SETTINGS permission via root in Termux/Terminal if your device is rooted:
+You can grant WRITE_SECURE_SETTINGS permission via Root in Termux/Terminal if your device is Rooted:
 
 `su -c pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
-Or just grant root to grant android.permission.WRITE_SECURE_SETTINGS automatically if it's asked at boot.
+Or just grant Root to grant android.permission.WRITE_SECURE_SETTINGS automatically if it's asked at boot.
 
-Or via adb shell:
+Or via ADB Shell:
 
 `adb shell pm grant android.permission.WRITE_SECURE_SETTINGS reiryuki.karenaiassistant`
 
@@ -60,6 +70,15 @@ Or via adb shell:
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Links and Changelog
+
+https://github.com/reiryuki/Karen-AI-Assistant
+
+v7.1 https://move2link.co/03bd8bc
+- Can run Java Code at initialization and after response without toggling to Java Code feature
+- Add Shell toggle feature
+- Can run Shell at initialization and after response without toggling to Shell feature but Workspace toggle must be turned on
+- Shell can access read-only outside the Workspace directory
+- System improvements
 
 v7.0 https://move2link.co/5b6faf9
 - Add a new model gemini-4-hydrogen
@@ -137,20 +156,20 @@ https://t.me/ryukinotes/97
 ## Troubleshootings
 If you can't allow Notification Listener Service or Accessibility Service, try to uninstall the app and reinstall again.
 If the issue still persists, try to search "Restricted Settings" in your Settings app and allow this app there.
-But if you can't find it, then you can allow it via root access:
+But if you can't find it, then you can allow it via Root access:
   
 `su -c appops set reiryuki.karenaiassistant ACCESS_RESTRICTED_SETTINGS allow`
   
-Or just grant the root access if it's asked in the app and it will run the line above automatically. 
+Or just grant the Root access if it's asked in the app and it will run the line above automatically. 
   
-Or run via adb shell:
+Or run via ADB Shell:
   
 `adb shell appops set reiryuki.karenaiassistant ACCESS_RESTRICTED_SETTINGS allow`
   
 
 ## Known Issues
 - You need to re-set default assistant app (if you are using it) in every device boot. You can grant WRITE_SECURE_SETTINGS permission to fix that.
-- If the text output contains 3500 characters or more, Google Speech is not stopping even you have clicked the Stop Speech button. To fix that, you can long press the Stop Speech button to force stop Google Speech manually. If you are rooted, just grant root if it's asked, so you don't need to force stop manually.
+- If the text output contains 3500 characters or more, Google Speech is not stopping even you have clicked the Stop Speech button. To fix that, you can long press the Stop Speech button to force stop Google Speech manually. If you are Rooted, just grant Root if it's asked, so you don't need to force stop manually.
 - If error "javax.net.ssl.SSLPeerUnverifiedException: Hostname lite.duckduckgo.com not verified" occurs, that means it's blocked by your provider and you need to use DNS or VPN.
 - If error "Queue full for IP:" in Create Image, it's likely the server temporary issue and not the application code error.
 
