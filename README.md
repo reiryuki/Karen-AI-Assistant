@@ -71,8 +71,6 @@ Or via ADB Shell:
 
 ## Download Links and Changelog
 
-https://github.com/reiryuki/Karen-AI-Assistant
-
 v7.1 https://move2link.co/03bd8bc
 - Can run Java Code at initialization and after response without toggling to Java Code feature
 - Add Shell toggle feature
