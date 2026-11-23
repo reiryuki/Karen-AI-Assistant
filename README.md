@@ -71,6 +71,9 @@ Or via ADB Shell:
 
 ## Download Links and Changelog
 
+v7.2 https://move2link.co/31baccf
+- Fix bugs and system improvements
+
 v7.1 https://move2link.co/03bd8bc
 - Can run Java Code at initialization and after response without toggling to Java Code feature
 - Add Shell toggle feature
