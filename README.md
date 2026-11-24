@@ -35,7 +35,7 @@
 - System Speech and ElevenLabs Speech
 - Workspace
 - Java Code
-  - Prompt to control device via Java Code Bean Shell automatically
+  - Prompt to control device via Java Code BeanShell automatically
   - Does not use Root nor ADB Shell nor Shizuku nor Accessibility Service permission
   - Can run Java Code without toggling to Java Code feature
 - Shell
@@ -70,6 +70,13 @@ Or via ADB Shell:
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Links and Changelog
+
+v7.3 https://move2link.co/fb32a7f
+- Fix unsupported mime type text/x-java file
+- Remove Java Code and Shell functions at initialization
+- Fix bugs and system improvements
+- Update Java Code prompt
+- Target SDK 36
 
 v7.2 https://move2link.co/31baccf
 - Fix bugs and system improvements
@@ -117,25 +124,6 @@ v6.4 https://move2link.co/ec6b9c4
 - Does not unzip compressed files
 - System improvements
 
-v6.3 https://move2link.co/8a9800e
-- Fix bug empty %karen_files at MD5 Check
-- System improvements
-
-v6.2 https://move2link.co/d8000fd
-- Fix bug empty %karen_initial1
-- Fix wrong format start_time end_time calendar event
-- Display model at the Settings page
-- Uploads files (except hidden files) in workspace directory if Workspace feature is ON
-- Long press Workspace to view files in the workspace directory
-- Checks MD5 files. If the MD5 doesn't match with previous MD5 then it will reupload automatically.
-- Remove Reupload button
-- Does not speech \<return\> and \</return\>
-- System improvements
-
-v6.1 https://move2link.co/92cabda
-- Remove unavailable model
-- System improvements
-
 ## Download Tutorial
 https://t.me/ryukinotes/97
 
@@ -175,7 +163,8 @@ Or run via ADB Shell:
 - If error "Queue full for IP:" in Create Image, it's likely the server temporary issue and not the application code error.
 
 ## Support and Bug Report
-- https://t.me/ryukinotes/54
+- Provide KarenError.txt, KarenPrompt.txt, & KarenSave.txt from Karen_AI_Assistant folder
+- Provide KarenJavaPrompt.txt, KarenShellPrompt.txt, & crash.log also if exist
 - If you don't do above, issues will be closed immediately
 
 ## Credits and contributors
