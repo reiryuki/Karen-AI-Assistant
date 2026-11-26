@@ -22,7 +22,7 @@
   - Launch a package name with a specific class name separated with slash "/". Example: com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity
   - Launch an app with the specific URL data separated with a comma ",". Example: tradingview,https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO&utm_source=androidapp&utm_medium=share
 - Search Song Lyrics/Chords in currently played music
-- Reads a URL content
+- Reads any URL content
 - Web Search
 - Add/update/delete calendar events
 - Real time weather
@@ -34,6 +34,7 @@
 - Multi languages
 - System Speech and ElevenLabs Speech
 - Workspace
+  - Files in the workspace folder will be uploaded immediately
 - Java Code
   - Prompt to control device via Java Code BeanShell automatically
   - Does not use Root nor ADB Shell nor Shizuku nor Accessibility Service permission
@@ -42,10 +43,13 @@
   - Prompt to run Shell commands
   - Can run Shell without toggling to Shell feature but Workspace toggle must be turned on
 - Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
-- Information about the actual device battery temperature, CPU frequency, and free RAM
+- Information about the actual device free storage, free RAM, battery temperature, & CPU frequency
+- Recycle bin function
+  - Files and folders will not be removed permanently by Java Code and Shell functions but will be moved to recycle_bin folder instead
+  - Files and folders in recycle_bin folder will be removed permanently if more than 24 hours old
 - Read My Text
   - Just paste your copied text and it will be read directly with Speech
-
+  
 ## Advanced Features
 These features can only be activated if WRITE_SECURE_SETTINGS permission is granted:
 - Auto Screenshot without activating the Accessibility Service
@@ -70,6 +74,12 @@ Or via ADB Shell:
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Links and Changelog
+
+v7.4 https://move2link.co/41d8c7b
+- Fix unsupported mime type image/x-portable-pixmap file
+- Apply recycle_bin folder function
+- Show running process and stop process buttons in notification
+- Fix bugs and system improvements
 
 v7.3 https://move2link.co/fb32a7f
 - Fix unsupported mime type text/x-java file
@@ -119,11 +129,6 @@ v6.5 https://move2link.co/fc661db
 - Fix bugs which caused Screenshot and Camera features doesn't work
 - System improvements
 
-v6.4 https://move2link.co/ec6b9c4
-- Support all files
-- Does not unzip compressed files
-- System improvements
-
 ## Download Tutorial
 https://t.me/ryukinotes/97
 
@@ -163,7 +168,7 @@ Or run via ADB Shell:
 - If error "Queue full for IP:" in Create Image, it's likely the server temporary issue and not the application code error.
 
 ## Support and Bug Report
-- Provide KarenError.txt, KarenPrompt.txt, & KarenSave.txt from Karen_AI_Assistant folder
+- Provide KarenError.txt, KarenPrompt.txt, KarenSystemPrompt.txt, & KarenSave.txt from Karen_AI_Assistant folder
 - Provide KarenJavaPrompt.txt, KarenShellPrompt.txt, & crash.log also if exist
 - If you don't do above, issues will be closed immediately
 
