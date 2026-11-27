@@ -44,9 +44,8 @@
   - Can run Shell without toggling to Shell feature but Workspace toggle must be turned on
 - Accuracy of any mathematical calculations using Java Code (without toggling to Java Code feature)
 - Information about the actual device free storage, free RAM, battery temperature, & CPU frequency
-- Recycle bin function
+- Recycle bin
   - Files and folders will not be removed permanently by Java Code and Shell functions but will be moved to recycle_bin folder instead
-  - Files and folders in recycle_bin folder will be removed permanently if more than 24 hours old
 - Read My Text
   - Just paste your copied text and it will be read directly with Speech
   
@@ -74,6 +73,10 @@ Or via ADB Shell:
 - System Speech. If your ROM doesn't have any system Speech then try to install this: https://github.com/reiryuki/Google-Text-to-Speech-Magisk-Module or https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## Download Links and Changelog
+
+v7.5 https://move2link.co/0c6f635
+- Remove buggy recycle bin deletion schedule
+- Java Code and Shell improvements
 
 v7.4 https://move2link.co/41d8c7b
 - Fix unsupported mime type image/x-portable-pixmap file
@@ -123,10 +126,6 @@ v6.7 https://move2link.co/fb53079
 v6.6 https://move2link.co/6d8d111
 - Reupload files if they have reached the age of 47 hours because the uploaded files are limited to 48 hours in Gemini AI Files API
 - Fix bugs
-- System improvements
-
-v6.5 https://move2link.co/fc661db
-- Fix bugs which caused Screenshot and Camera features doesn't work
 - System improvements
 
 ## Download Tutorial
